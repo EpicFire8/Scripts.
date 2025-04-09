@@ -462,7 +462,7 @@ task.wait(.1)
 sound69.SoundId = customasset("Dances/sturdy.mp3")
 sound69.PlaybackSpeed = 1
 sound69:Play()
-playanim(100864643591096)
+playanim(8550316999)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -476,7 +476,7 @@ task.wait(.1)
     sound69.SoundId = customasset("Dances/egypt.mp3")
     sound69.PlaybackSpeed = 1
     sound69:Play()
-    playanim(101876334315959)
+    playanim(10048786578)
 else
     stopanim()
     sound69.PlaybackSpeed = 1
@@ -490,7 +490,7 @@ task.wait(.1)
         sound69.SoundId = customasset("Dances/billy.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
-        playanim(18945296583)
+        playanim(97072681531610)
     else
         stopanim()
         sound69:Stop()
@@ -502,7 +502,7 @@ dancing = true
 task.wait(.1)
         sound69.SoundId = customasset("Dances/goat.mp3")
         sound69:Play()
-        playanim(9149918263)
+        playanim(10048786578)
     else
         stopanim()
         sound69:Stop()
@@ -514,7 +514,7 @@ dancing = true
 task.wait(.1)
         sound69.SoundId = customasset("Dances/pogo.mp3")
         sound69:Play()
-        playanim(8829798048,1.5)
+        playanim(8550316999)
     else
         stopanim()
         sound69:Stop()
@@ -526,7 +526,7 @@ dancing = true
 task.wait(.1)
         sound69.SoundId = customasset("Dances/xav.mp3")
         sound69:Play()
-        playanim(118689801179651,2)
+        playanim(12843537499)
     else
         stopanim()
         sound69:Stop()
@@ -539,7 +539,7 @@ elseif k == "k" then
         sound69.SoundId = customasset("Dances/dr.wav")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
-        playanim(12637912409,2)
+        playanim(14684864488)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
@@ -553,7 +553,7 @@ elseif k == "l" then
         sound69.SoundId = customasset("Dances/griddy.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
-        playanim(15704995372)
+        playanim(126880865139406)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
@@ -566,7 +566,7 @@ elseif k == "z" then
         task.wait(.1)
         sound69.SoundId = customasset("Dances/lux.ogg")
         sound69:Play()
-        playanim(15092317950)
+        playanim(12843537499)
     else
         stopanim()
         sound69:Stop()
@@ -578,7 +578,7 @@ elseif k == "x" then
         task.wait(.1)
         sound69.SoundId = customasset("Dances/secret.mp3")
         sound69:Play()
-        playanim(105416804363388,33/60)
+        playanim(15039780593)
     else
         stopanim()
         sound69:Stop()
@@ -590,7 +590,7 @@ elseif k == "h" then
         task.wait(.1)
         sound69.SoundId = "rbxassetid://1846368080"
         sound69:Play()
-        playanim(76647570617571,0.75)
+        playanim(15115509387)
     else
         stopanim()
         sound69:Stop()
@@ -602,7 +602,7 @@ elseif k == "v" then
         task.wait(.1)
         sound69.SoundId = customasset("Dances/bimbam.mp3")
         sound69:Play()
-        playanim(16361564081)
+        playanim(77727115892579)
     else
         stopanim()
         sound69:Stop()
