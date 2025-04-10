@@ -592,8 +592,7 @@ elseif k == "h" then
         task.wait(.1)
         sound69.SoundId = "rbxassetid://113256172085057"
         sound69:Play()
-        playanim(138019937280193)
-	track:AdjustSpeed(5)
+        playanim(107464355830477)
     else
         stopanim()
         sound69:Stop()
