@@ -567,6 +567,7 @@ elseif k == "z" then
         sound69.SoundId = customasset("Dances/lux.ogg")
         sound69:Play()
         playanim(74238051754912)
+	track:AdjustSpeed(5)
     else
         stopanim()
         sound69:Stop()
