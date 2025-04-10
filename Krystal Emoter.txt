@@ -587,7 +587,7 @@ elseif k == "h" then
         stopanim()
         dancing = true
         task.wait(.1)
-        sound69.SoundId = "rbxassetid://1846368080"
+        sound69.SoundId = "rbxassetid://113256172085057"
         sound69:Play()
         playanim(138019937280193)
     else
