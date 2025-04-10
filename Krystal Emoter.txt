@@ -555,7 +555,7 @@ elseif k == "l" then
         sound69.SoundId = customasset("Dances/griddy.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
-        playanim(126880865139406)
+        playanim(140497119553953)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
@@ -568,7 +568,7 @@ elseif k == "z" then
         task.wait(.1)
         sound69.SoundId = customasset("Dances/lux.ogg")
         sound69:Play()
-        playanim(74238051754912)
+        playanim(111877248887471)
 	track:AdjustSpeed(80)
     else
         stopanim()
@@ -631,7 +631,7 @@ elseif k == "c" then
         task.wait(.1)
         sound69.SoundId = customasset("Dances/Moongazer.mp3")
         sound69:Play()
-        playanim(74187447524398)
+        playanim(131029964170452)
     else
         stopanim()
         sound69:Stop()
