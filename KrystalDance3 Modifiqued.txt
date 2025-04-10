@@ -612,9 +612,9 @@ elseif k == "6" then
         stopanim()
         dancing = true
         task.wait(.1)
-        sound69.SoundId = customasset("Dances/faster.ogg")
+        sound69.SoundId = customasset("Dances/SillyBilly.mp3")
         sound69:Play()
-        playanim(10609437925)
+        playanim(131922235949992)
     else
         stopanim()
         sound69:Stop()
@@ -660,10 +660,10 @@ elseif k == "m" then
         stopanim()
         dancing = true
         task.wait(.1)
-        sound69.SoundId = customasset("Dances/Slickback.mp3")
+        sound69.SoundId = customasset("Dances/IronLung.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
-        playanim(18986357892)
+        playanim(96365246546235)
     else
         stopanim()
         sound69:Stop()
