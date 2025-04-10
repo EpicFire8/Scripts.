@@ -550,7 +550,7 @@ elseif k == "l" then
         stopanim()
     dancing = true
     task.wait(.1)
-        sound69.SoundId = customasset("Dances/griddy.mp3")
+        sound69.SoundId = customasset("Dances/IMMISSTHEQUIET.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
         playanim(126880865139406)
