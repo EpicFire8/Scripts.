@@ -405,7 +405,7 @@ task.wait(.1)
 sound69.SoundId = customasset("Dances/boogie.mp3")
 sound69.PlaybackSpeed = 2
 sound69:Play()
-playanim(14684864488)
+playanim(131029964170452)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
