@@ -555,7 +555,7 @@ elseif k == "l" then
         sound69.SoundId = customasset("Dances/griddy.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
-        playanim(100986631322204)
+        playanim(126880865139406)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
