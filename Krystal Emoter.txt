@@ -1,4 +1,4 @@
--- Krystal Dance V3, Made by Hemi (es muy janky)
+g-- Krystal Dance V3, Made by Hemi (es muy janky)
 if not isfolder("Dances") then 
     makefolder("Dances")
     end
@@ -434,7 +434,7 @@ task.wait(.1)
 	sound69.SoundId = customasset("Dances/valen.mp3")
 	sound69.PlaybackSpeed = 1
 	sound69:Play()
-	playanim(18986687692)
+	playanim(74187447524398)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
