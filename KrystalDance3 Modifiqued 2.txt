@@ -474,9 +474,10 @@ if dancing == false then
 dancing = true
 task.wait(.1)
     sound69.SoundId = customasset("Dances/egypt.mp3")
-    sound69.PlaybackSpeed = 0.1
+    sound69.PlaybackSpeed = 0.3
     sound69:Play()
     playanim(96365246546235)
+    animSpeed = 0.5
 else
     stopanim()
     sound69.PlaybackSpeed = 1
