@@ -568,8 +568,7 @@ elseif k == "z" then
         task.wait(.1)
         sound69.SoundId = customasset("Dances/lux.ogg")
         sound69:Play()
-        playanim(111877248887471)
-	track:AdjustSpeed(80)
+        playanim(18986200915)
     else
         stopanim()
         sound69:Stop()
