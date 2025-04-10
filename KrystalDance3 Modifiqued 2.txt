@@ -392,7 +392,7 @@ dancing = true
 task.wait(.1)
 		    sound69.SoundId = customasset("Dances/rat.mp3")
 		    sound69:Play()
-		    playanim(92699725136780)
+		    playanim(12843537499)
 		else
 	        stopanim()
 	        sound69:Stop()
@@ -405,7 +405,7 @@ task.wait(.1)
 sound69.SoundId = customasset("Dances/boogie.mp3")
 sound69.PlaybackSpeed = 2
 sound69:Play()
-playanim(82171050414030)
+playanim(126880865139406)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -434,7 +434,7 @@ task.wait(.1)
 	sound69.SoundId = customasset("Dances/valen.mp3")
 	sound69.PlaybackSpeed = 1
 	sound69:Play()
-	playanim(78991327797272)
+	playanim(15115509387)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -448,7 +448,7 @@ task.wait(.1)
 		sound69.SoundId = customasset("Dances/order.mp3")
 		sound69.PlaybackSpeed = 2
 		sound69:Play()
-		playanim(80764093560475)
+		playanim(77727115892579)
 	else
 		stopanim()
 		sound69.PlaybackSpeed = 1
@@ -462,7 +462,7 @@ task.wait(.1)
 sound69.SoundId = customasset("Dances/sturdy.mp3")
 sound69.PlaybackSpeed = 1
 sound69:Play()
-playanim(100864643591096)
+playanim(131922235949992)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -476,7 +476,7 @@ task.wait(.1)
     sound69.SoundId = customasset("Dances/egypt.mp3")
     sound69.PlaybackSpeed = 1
     sound69:Play()
-    playanim(101876334315959)
+    playanim(96365246546235)
 else
     stopanim()
     sound69.PlaybackSpeed = 1
