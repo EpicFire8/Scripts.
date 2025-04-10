@@ -503,6 +503,7 @@ task.wait(.1)
         sound69.SoundId = customasset("Dances/goat.mp3")
         sound69:Play()
         playanim(112163805718835)
+track:AdjustSpeed(5)
     else
         stopanim()
         sound69:Stop()
@@ -540,6 +541,7 @@ elseif k == "k" then
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
         playanim(107464355830477)
+	track:AdjustSpeed(0.3)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
@@ -592,6 +594,7 @@ elseif k == "h" then
         sound69.SoundId = "rbxassetid://113256172085057"
         sound69:Play()
         playanim(138019937280193)
+	track:AdjustSpeed(5)
     else
         stopanim()
         sound69:Stop()
@@ -604,6 +607,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/bimbam.mp3")
         sound69:Play()
         playanim(94105604583181)
+	track:AdjustSpeed(5)
     else
         stopanim()
         sound69:Stop()
