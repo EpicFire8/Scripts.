@@ -577,7 +577,7 @@ elseif k == "x" then
         task.wait(.1)
         sound69.SoundId = customasset("Dances/secret.mp3")
         sound69:Play()
-        playanim(15039780593)
+        playanim(74187447524398,1)
     else
         stopanim()
         sound69:Stop()
