@@ -412,7 +412,7 @@ task.wait(.005)
 	sound69.SoundId = customasset("Dances/valen.mp3")
 	sound69.PlaybackSpeed = 1
 	sound69:Play()
-	playanim(136962185637891)
+	playanim(113953995772094)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -426,7 +426,7 @@ task.wait(.005)
 		sound69.SoundId = customasset("Dances/order.mp3")
 		sound69.PlaybackSpeed = 2
 		sound69:Play()
-		playanim(130968726197789)
+		playanim(74750058433101)
 	else
 		stopanim()
 		sound69.PlaybackSpeed = 1
@@ -440,7 +440,7 @@ task.wait(.005)
 sound69.SoundId = customasset("Dances/sturdy.mp3")
 sound69.PlaybackSpeed = 1
 sound69:Play()
-playanim(100864643591096)
+playanim(74706771494292)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -706,7 +706,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/balls.mp3")
         sound69:Play()
-        playanim(74187447524398,4)
+        playanim(74187447524398,3)
     else
         stopanim()
         sound69:Stop()
@@ -781,7 +781,7 @@ elseif k == "u" then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/bloodpop.mp3")
         sound69:Play()
-        playanim(132026285699359)
+        playanim(12958406412006)
     else
         stopanim()
         sound69:Stop()
