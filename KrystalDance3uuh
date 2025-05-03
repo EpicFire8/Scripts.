@@ -706,7 +706,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/balls.mp3")
         sound69:Play()
-        playanim(74187447524398,2)
+        playanim(74187447524398,4)
     else
         stopanim()
         sound69:Stop()
