@@ -385,7 +385,7 @@ dancing = true
 task.wait(.005)
 		    sound69.SoundId = customasset("Dances/rat.mp3")
 		    sound69:Play()
-		    playanim(113953995772094, 0.3)
+		    playanim(113953995772094,0.3)
 		else
 	        stopanim()
 	        sound69:Stop()
