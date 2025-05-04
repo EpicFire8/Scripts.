@@ -556,7 +556,7 @@ elseif k == "x" then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/kazot.mp3")
         sound69:Play()
-        playanim(109990576374190)
+        playanim(109990576374190,1.5)
     else
         stopanim()
         sound69:Stop()
