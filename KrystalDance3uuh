@@ -517,7 +517,7 @@ elseif k == "k" then
         sound69.SoundId = customasset("Dances/dr.wav")
         char.Humanoid.WalkSpeed = 20*char:GetScale()
         sound69:Play()
-        playanim(82063943309833)
+        playanim(82063943309833,1)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
