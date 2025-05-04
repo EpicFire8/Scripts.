@@ -398,7 +398,7 @@ task.wait(.005)
 sound69.SoundId = customasset("Dances/boogie.mp3")
 sound69.PlaybackSpeed = 2
 sound69:Play()
-playanim(109990576374190)
+playanim(109990576374190,1)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -412,7 +412,7 @@ task.wait(.005)
 	sound69.SoundId = customasset("Dances/valen.mp3")
 	sound69.PlaybackSpeed = 1
 	sound69:Play()
-	playanim(119606589130611)
+	playanim(119606589130611,1)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -517,7 +517,7 @@ elseif k == "k" then
         sound69.SoundId = customasset("Dances/dr.wav")
         char.Humanoid.WalkSpeed = 5*char:GetScale()
         sound69:Play()
-        playanim(124074233795203,0.5)
+        playanim(124074233795203)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
