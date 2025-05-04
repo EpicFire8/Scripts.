@@ -385,7 +385,7 @@ dancing = true
 task.wait(.005)
 		    sound69.SoundId = customasset("Dances/rat.mp3")
 		    sound69:Play()
-		    playanim(106353328250763)
+		    playanim(113953995772094)
 		else
 	        stopanim()
 	        sound69:Stop()
@@ -398,7 +398,7 @@ task.wait(.005)
 sound69.SoundId = customasset("Dances/boogie.mp3")
 sound69.PlaybackSpeed = 2
 sound69:Play()
-playanim(16769959846)
+playanim(107578737342278)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -412,7 +412,7 @@ task.wait(.005)
 	sound69.SoundId = customasset("Dances/valen.mp3")
 	sound69.PlaybackSpeed = 1
 	sound69:Play()
-	playanim(113953995772094, 0.3)
+	playanim(80764093560475)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -426,7 +426,7 @@ task.wait(.005)
 		sound69.SoundId = customasset("Dances/order.mp3")
 		sound69.PlaybackSpeed = 2
 		sound69:Play()
-		playanim(74750058433101, 0.2)
+		playanim(8550316999)
 	else
 		stopanim()
 		sound69.PlaybackSpeed = 1
@@ -440,7 +440,7 @@ task.wait(.005)
 sound69.SoundId = customasset("Dances/sturdy.mp3")
 sound69.PlaybackSpeed = 1
 sound69:Play()
-playanim(74706771494292, 0.2)
+playanim(14125434919)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -454,7 +454,7 @@ task.wait(.005)
     sound69.SoundId = customasset("Dances/caramell.mp3")
     sound69.PlaybackSpeed = 1
     sound69:Play()
-    playanim(103597509139287)
+    playanim(13579968035)
 else
     stopanim()
     sound69.PlaybackSpeed = 1
@@ -468,7 +468,7 @@ task.wait(.005)
         sound69.SoundId = customasset("Dances/billy.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         sound69:Play()
-        playanim(18945296583)
+        playanim(12843537499)
     else
         stopanim()
         sound69:Stop()
@@ -480,7 +480,7 @@ dancing = true
 task.wait(.005)
         sound69.SoundId = customasset("Dances/gangnamm.mp3")
         sound69:Play()
-        playanim(12438774071)
+        playanim(15605418190)
     else
         stopanim()
         sound69:Stop()
@@ -492,7 +492,7 @@ dancing = true
 task.wait(.005)
         sound69.SoundId = customasset("Dances/pogo.mp3")
         sound69:Play()
-        playanim(8829798048,1.5)
+        playanim(18986687692)
     else
         stopanim()
         sound69:Stop()
@@ -706,7 +706,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/balls.mp3")
         sound69:Play()
-        playanim(74187447524398,3)
+        playanim(74187447524398,5)
     else
         stopanim()
         sound69:Stop()
