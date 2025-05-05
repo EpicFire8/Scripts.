@@ -756,7 +756,7 @@ sound69.SoundId = customasset("Dances/dancingwit.mp3")
 sound69.PlaybackSpeed = 1
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(74238051754912)
+playanim(74238051754912,3)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
