@@ -742,7 +742,7 @@ elseif k == "g" then
                                         task.wait(.005)
                                         sound69.SoundId = customasset("Dances/chronoshift.mp3")
                                         sound69:Play()
-                                        playanim(113953995772094)
+                                        playanim(113953995772094,0.4)
                                     else
                                         stopanim()
                                         sound69:Stop()
