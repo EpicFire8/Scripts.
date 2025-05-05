@@ -468,7 +468,7 @@ task.wait(.005)
         sound69.SoundId = "rbxassetid://96072511229149"
         char.Humanoid.WalkSpeed = 25*char:GetScale()
         sound69:Play()
-        playanim(82063943309833,3)
+        playanim(82063943309833,2)
     else
         stopanim()
         sound69:Stop()
