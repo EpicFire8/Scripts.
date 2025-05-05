@@ -412,7 +412,7 @@ task.wait(.005)
 	sound69.SoundId = customasset("Dances/valen.mp3")
 	sound69.PlaybackSpeed = 1
 	sound69:Play()
-	playanim(119606589130611,1)
+	playanim(12958406412006)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
