@@ -426,7 +426,7 @@ task.wait(.005)
 		sound69.SoundId = customasset("Dances/order.mp3")
 		sound69.PlaybackSpeed = 2
 		sound69:Play()
-		playanim(111079857314277,0.5)
+		playanim(111079857314277,0.6)
 	else
 		stopanim()
 		sound69.PlaybackSpeed = 1
@@ -468,7 +468,7 @@ task.wait(.005)
         sound69.SoundId = "rbxassetid://96072511229149"
         char.Humanoid.WalkSpeed = 25*char:GetScale()
         sound69:Play()
-        playanim(82063943309833,4)
+        playanim(82063943309833,3)
     else
         stopanim()
         sound69:Stop()
@@ -658,7 +658,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = "rbxassetid://1839246774"
         sound69:Play()
-        playanim(131823883329199,0.6)
+        playanim(131823883329199,0.7)
     else
         stopanim()
         sound69:Stop()
@@ -682,7 +682,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/freeflow.mp3")
         sound69:Play()
-        playanim(99905571448278,0.7)
+        playanim(99905571448278,0.8)
     else
         stopanim()
         sound69:Stop()
@@ -694,7 +694,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/whateverlike.mp3")
         sound69:Play()
-        playanim(105422344378204,0.6)
+        playanim(105422344378204,0.8)
     else
         stopanim()
         sound69:Stop()
@@ -742,7 +742,7 @@ elseif k == "g" then
                                         task.wait(.005)
                                         sound69.SoundId = customasset("Dances/chronoshift.mp3")
                                         sound69:Play()
-                                        playanim(113953995772094,0.1)
+                                        playanim(113953995772094,0.4)
                                     else
                                         stopanim()
                                         sound69:Stop()
