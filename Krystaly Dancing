@@ -704,9 +704,9 @@ if mode == 2 then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/balls.mp3")
+        sound69.SoundId = "rbxassetid://5409360995"
         sound69:Play()
-        playanim(15039779727)
+        playanim(74187447524398)
     else
         stopanim()
         sound69:Stop()
@@ -716,9 +716,9 @@ elseif k == "h" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/faster.ogg")
+        sound69.SoundId = "rbxassetid://71934965392436"
         sound69:Play()
-        playanim(10609437925)
+        playanim(107578737342278)
     else
         stopanim()
         sound69:Stop()
@@ -730,7 +730,7 @@ elseif k == "g" then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/tryna.mp3")
         sound69:Play()
-        playanim(14887006269)
+        playanim(82234401429055)
     else
         stopanim()
         sound69:Stop()
@@ -742,7 +742,7 @@ elseif k == "g" then
                                         task.wait(.005)
                                         sound69.SoundId = customasset("Dances/chronoshift.mp3")
                                         sound69:Play()
-                                        playanim(125834337223799)
+                                        playanim(7857500452351)
                                     else
                                         stopanim()
                                         sound69:Stop()
@@ -756,7 +756,7 @@ sound69.SoundId = customasset("Dances/dancingwit.mp3")
 sound69.PlaybackSpeed = 1
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(93585895457618)
+playanim(74238051754912)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -767,9 +767,9 @@ end
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/frightfunk.mp3")
+        sound69.SoundId = "rbxassetid://120817494107898"
         sound69:Play()
-        playanim(70835462045983)
+        playanim(17471843536)
     else
         stopanim()
         sound69:Stop()
@@ -779,9 +779,9 @@ elseif k == "u" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/bloodpop.mp3")
+        sound69.SoundId = "rbxassetid://9048375035"
         sound69:Play()
-        playanim(132026285699359)
+        playanim(73116243097694)
     else
         stopanim()
         sound69:Stop()
