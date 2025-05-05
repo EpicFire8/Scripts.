@@ -544,7 +544,7 @@ elseif k == "z" then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/lux.ogg")
         sound69:Play()
-        playanim(97072681531610)
+        playanim(13357063395)
     else
         stopanim()
         sound69:Stop()
@@ -769,7 +769,7 @@ end
         task.wait(.005)
         sound69.SoundId = "rbxassetid://120817494107898"
         sound69:Play()
-        playanim(17471843536)
+        playanim(12958406412006)
     else
         stopanim()
         sound69:Stop()
