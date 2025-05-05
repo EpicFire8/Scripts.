@@ -682,7 +682,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/freeflow.mp3")
         sound69:Play()
-        playanim(99905571448278)
+        playanim(99905571448278,2)
     else
         stopanim()
         sound69:Stop()
@@ -742,7 +742,7 @@ elseif k == "g" then
                                         task.wait(.005)
                                         sound69.SoundId = customasset("Dances/chronoshift.mp3")
                                         sound69:Play()
-                                        playanim(7857500452351)
+                                        playanim(114160464579438)
                                     else
                                         stopanim()
                                         sound69:Stop()
@@ -769,7 +769,7 @@ end
         task.wait(.005)
         sound69.SoundId = "rbxassetid://120817494107898"
         sound69:Play()
-        playanim(12958406412006)
+        playanim(13272181711)
     else
         stopanim()
         sound69:Stop()
