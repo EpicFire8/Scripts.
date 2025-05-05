@@ -490,9 +490,9 @@ elseif k == "p" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = customasset("Dances/pogo.mp3")
+        sound69.SoundId = "rbxassetid://1846271108"
         sound69:Play()
-        playanim(74012585744751)
+        playanim(13542472660)
     else
         stopanim()
         sound69:Stop()
@@ -682,7 +682,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/freeflow.mp3")
         sound69:Play()
-        playanim(101564911432113)
+        playanim(99905571448278)
     else
         stopanim()
         sound69:Stop()
@@ -694,7 +694,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/whateverlike.mp3")
         sound69:Play()
-        playanim(83266223088944)
+        playanim(105422344378204)
     else
         stopanim()
         sound69:Stop()
@@ -706,7 +706,7 @@ if mode == 2 then
         task.wait(.005)
         sound69.SoundId = "rbxassetid://5409360995"
         sound69:Play()
-        playanim(74187447524398)
+        playanim(74187447524398, 4)
     else
         stopanim()
         sound69:Stop()
