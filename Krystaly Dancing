@@ -353,7 +353,7 @@ end
                 wait(.065)
                 if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
                 task.spawn(function()
-                playanim(136078657506707,1,false)
+                playanim(180435571,1,false)
                 end)
             end
             end
@@ -823,7 +823,7 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
             stopanim()
             fwait(1/500)
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
-                playanim(130213485744288,1,false,walkanim)
+                playanim(180426354,1,false,walkanim)
             end
     end
 end
