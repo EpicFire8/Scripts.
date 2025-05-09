@@ -555,9 +555,11 @@ elseif k == "x" then
         dancing = true
         task.wait(.005)
         sound69.SoundId = customasset("Dances/kazot.mp3")
+        char.Humanoid.WalkSpeed = 20*char:GetScale()
         sound69:Play()
         playanim(129262810948577)
     else
+        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
         sound69:Stop()
     end
