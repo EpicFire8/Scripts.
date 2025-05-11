@@ -712,7 +712,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Mystery.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(9337916456)
+        playanim(81542849315640)
     else
         stopanim()
         
@@ -725,7 +725,7 @@ elseif k == "leftbracket" then
         sound69.SoundId = customasset("Dances/true_heart.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(131776726113292)
+        playanim(90127032448242)
     else
         stopanim()
         
