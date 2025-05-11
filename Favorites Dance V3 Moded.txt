@@ -576,7 +576,7 @@ task.wait(.005)
         sound69.SoundId = customasset("Dances/pogo.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(98916367562022)
+        playanim(98916367562022,0.8)
     else
         stopanim()
         
