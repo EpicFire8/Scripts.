@@ -485,11 +485,11 @@ if dancing == false then
 	stopanim()
 dancing = true
 task.wait(.005)
-	sound69.SoundId = "rbxassetid://74012585744751"
+	sound69.SoundId = "rbxassetid://112523741483084"
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 sound69:Play()
-	playanim(136962185637891)
+	playanim(124044710949643)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -500,8 +500,8 @@ elseif k == "t" then
 		stopanim()
 dancing = true
 task.wait(.005)
-		sound69.SoundId = "rbxassetid://71934965392436"
-		sound69.PlaybackSpeed = 2
+		sound69.SoundId = "rbxassetid://1838489774"
+		sound69.PlaybackSpeed = 1
 		timeposcur = sound69.TimePosition 
 sound69:Play()
 		playanim(80764093560475)
@@ -576,7 +576,7 @@ task.wait(.005)
         sound69.SoundId = customasset("Dances/pogo.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(99905571448278)
+        playanim(98916367562022)
     else
         stopanim()
         
@@ -645,7 +645,7 @@ elseif k == "x" then
         sound69.SoundId = customasset("Dances/kazot.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(119606589130611)
+        playanim(119606589130611,2)
     else
         stopanim()
         
@@ -911,7 +911,7 @@ elseif k == "z" then
         sound69.SoundId = customasset("Dances/leftright.mp3")
         timeposcur = sound69.TimePosition 
         sound69:Play()
-        playanim(74012585744751)
+        playanim(137845929482571)
     else
         stopanim()
         
