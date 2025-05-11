@@ -755,7 +755,7 @@ if mode == 2 then
         sound69.SoundId = customasset("Dances/XO.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(8550316999)
+        playanim(131155721688011)
     else
         stopanim()
         
@@ -807,7 +807,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/balls.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132451933677211)
+        playanim(132451933677211,0.6)
     else
         stopanim()
         
@@ -820,7 +820,7 @@ elseif k == "h" then
         sound69.SoundId = customasset("Dances/faster.ogg")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(86276235951800)
+        playanim(86276235951800,0.4)
     else
         stopanim()
         
@@ -833,7 +833,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/tryna.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(78991327797272)
+        playanim(78991327797272,0.9)
     else
         stopanim()
         
@@ -846,7 +846,7 @@ sound69:Play()
                                         sound69.SoundId = customasset("Dances/chronoshift.mp3")
                                         timeposcur = sound69.TimePosition 
 sound69:Play()
-                                        playanim(80764093560475)
+                                        playanim(132886479585903)
                                     else
                                         stopanim()
                                         
@@ -861,7 +861,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(74238051754912)
+playanim(74238051754912,2)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -875,7 +875,7 @@ end
         sound69.SoundId = customasset("Dances/frightfunk.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(138019937280193,1)
+        playanim(138019937280193,3)
     else
         stopanim()
         
@@ -888,7 +888,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/bloodpop.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(74187447524398)
+        playanim(74187447524398,3)
     else
         stopanim()
         
@@ -898,7 +898,7 @@ elseif k == "n" then
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(94105604583181)
+        playanim(94105604583181,2)
     else
         stopanim()
         
@@ -924,7 +924,7 @@ elseif k == "x" then
         sound69.SoundId = customasset("Dances/heavylove.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(14125434919)
+        playanim(100568904650591)
     else
         stopanim()
         
