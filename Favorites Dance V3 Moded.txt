@@ -807,7 +807,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/balls.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132451933677211,0.6)
+        playanim(132451933677211,0.7)
     else
         stopanim()
         
@@ -846,7 +846,7 @@ sound69:Play()
                                         sound69.SoundId = customasset("Dances/chronoshift.mp3")
                                         timeposcur = sound69.TimePosition 
 sound69:Play()
-                                        playanim(132886479585903)
+                                        playanim(132886479585903,2)
                                     else
                                         stopanim()
                                         
@@ -875,7 +875,7 @@ end
         sound69.SoundId = customasset("Dances/frightfunk.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(138019937280193,3)
+        playanim(138019937280193,1)
     else
         stopanim()
         
