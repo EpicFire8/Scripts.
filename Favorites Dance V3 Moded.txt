@@ -861,7 +861,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(74238051754912,2)
+playanim(74238051754912,3)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
