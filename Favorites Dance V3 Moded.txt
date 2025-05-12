@@ -875,7 +875,7 @@ end
         sound69.SoundId = customasset("Dances/frightfunk.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(138019937280193,1)
+        playanim(138019937280193,2)
     else
         stopanim()
         
