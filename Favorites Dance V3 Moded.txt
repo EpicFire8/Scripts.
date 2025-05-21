@@ -632,7 +632,7 @@ elseif k == "z" then
         sound69.SoundId = customasset("Dances/lux.ogg")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(137845929482571)
+        playanim(18986687692)
     else
         stopanim()
         
