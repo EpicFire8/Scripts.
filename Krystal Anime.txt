@@ -562,7 +562,7 @@ task.wait(.005)
         sound69.SoundId = customasset("Dances/gangnamm.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(99905571448278)
+        playanim(99905571448278,0.8)
     else
         stopanim()
         
