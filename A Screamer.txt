@@ -598,13 +598,13 @@ elseif k == "k" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = "rbxassetid://104868924499219"
+        sound69.SoundId = "rbxassetid://122489358167697"
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(12637912409,2)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 7*char:GetScale()
         stopanim()
         
     end
@@ -613,13 +613,13 @@ elseif k == "l" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = "rbxassetid://1847681727"
-        char.Humanoid.WalkSpeed = 4*char:GetScale()
+        sound69.SoundId = "rbxassetid://119676635330604"
+        char.Humanoid.WalkSpeed = 30*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(15704995372)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 7*char:GetScale()
         stopanim()
         
     end
@@ -980,7 +980,7 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
             playanim(0,1,false,idleanim )
             end
         elseif char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and walking == false then 
-            char.Humanoid.WalkSpeed = 14*char:GetScale()
+            char.Humanoid.WalkSpeed = 7*char:GetScale()
             walking = true
             idle = false
             stopanim()
