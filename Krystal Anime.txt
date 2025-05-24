@@ -534,7 +534,7 @@ task.wait(.005)
     sound69.PlaybackSpeed = 1
     timeposcur = sound69.TimePosition 
 sound69:Play()
-    playanim(135044356468970)
+    playanim(135044356468970,0.5)
 else
     stopanim()
     sound69.PlaybackSpeed = 1
