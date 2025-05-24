@@ -598,11 +598,11 @@ elseif k == "k" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = "rbxassetid://122489358167697"
+        sound69.SoundId = "rbxassetid://104868924499219"
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(12637912409,2)
+        playanim(122489358167697)
     else
         char.Humanoid.WalkSpeed = 7*char:GetScale()
         stopanim()
@@ -613,11 +613,11 @@ elseif k == "l" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = "rbxassetid://119676635330604"
+        sound69.SoundId = "rbxassetid://1847681727"
         char.Humanoid.WalkSpeed = 30*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(15704995372)
+        playanim(119676635330604)
     else
         char.Humanoid.WalkSpeed = 7*char:GetScale()
         stopanim()
