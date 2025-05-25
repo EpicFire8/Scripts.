@@ -392,7 +392,7 @@ end
         if exploit ~= "CaetSploit" then
         idwithoutthatbit= string.gsub(id,"Dances/","")
         if not isfile(id) then 
-         writefile(id,game:HttpGet("https://github.com/EpicFire8/Music/raw/refs/heads/main/"..idwithoutthatbit))
+         writefile(id,game:HttpGet("https://github.com/Nitro-GT/music/raw/refs/heads/main/"..idwithoutthatbit))
         end
        repeat task.wait() until isfile(id)
     end
@@ -415,8 +415,8 @@ end
             playanother = true 
             sound69.PlaybackSpeed = 1
             if playbacktrack == true then 
-            sound69.SoundId = customasset("Dances/StarvationV2.mp3")
-            sound69.Volume = .75
+            sound69.SoundId = "rbxassetid://139393062477955"
+            sound69.Volume = .60
             else 
                 sound69:Stop()
             end
@@ -545,7 +545,7 @@ elseif k == "f" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = rbxassetid://142665235"
+        sound69.SoundId = "rbxassetid://142665235"
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
@@ -559,7 +559,7 @@ elseif k == "g" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = customasset("Dances/PursuerHowl.mp3")
+        sound69.SoundId = "rbxassetid://104868924499219"
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(109803302620003)
@@ -585,7 +585,7 @@ elseif k == "j" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = customasset("Dances/PursuerStalk.mp3")
+        sound69.SoundId = "rbxassetid://18477891371"
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(130725432915474)
@@ -598,13 +598,13 @@ elseif k == "k" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = "rbxassetid://142665235"
-        char.Humanoid.WalkSpeed = 30*char:GetScale()
+        sound69.SoundId = customasset("Dances/dr.wav")
+        char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(102302720518230)
+        playanim(12637912409,2)
     else
-        char.Humanoid.WalkSpeed = 8*char:GetScale()
+        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
         
     end
@@ -613,13 +613,13 @@ elseif k == "l" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = customasset("Dances/PursuerStunned.mp3")
+        sound69.SoundId = "rbxassetid://12222058"
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(87593869628310)
     else
-        char.Humanoid.WalkSpeed = 8*char:GetScale()
+        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
         
     end
@@ -980,8 +980,7 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
             playanim(0,1,false,idleanim )
             end
         elseif char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and walking == false then 
-            char.Humanoid.WalkSpeed = 8
-*char:GetScale()
+            char.Humanoid.WalkSpeed = 14*char:GetScale()
             walking = true
             idle = false
             stopanim()
