@@ -602,7 +602,7 @@ elseif k == "k" then
         char.Humanoid.WalkSpeed = 30*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(102302720518230,2)
+        playanim(102302720518230)
     else
         char.Humanoid.WalkSpeed = 8*char:GetScale()
         stopanim()
