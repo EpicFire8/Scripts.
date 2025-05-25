@@ -599,7 +599,7 @@ elseif k == "k" then
         dancing = true
         task.wait(.005)
         sound69.SoundId = customasset("Dances/dr.wav")
-        char.Humanoid.WalkSpeed = 30*char:GetScale()
+        char.Humanoid.WalkSpeed = 35*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(102302720518230)
