@@ -588,7 +588,7 @@ task.wait(.005)
         sound69.SoundId = "rbxassetid://18477891371"
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(130725432915474,0.5)
+        playanim(130725432915474,0.3)
     else
         stopanim()
         
@@ -604,7 +604,7 @@ elseif k == "k" then
 sound69:Play()
         playanim(102302720518230)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 8*char:GetScale()
         stopanim()
         
     end
@@ -613,13 +613,13 @@ elseif k == "l" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = customasset("Dances/griddy.mp3")
+        sound69.SoundId = "rbxassetid://110220447634720"
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(15704995372)
+        playanim(87593869628310)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 8*char:GetScale()
         stopanim()
         
     end
@@ -697,7 +697,7 @@ elseif k == "n" then
         sound69.SoundId = customasset("Dances/Down.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(111249002064299)
+        playanim(102302720518230)
     else
         stopanim()
         
