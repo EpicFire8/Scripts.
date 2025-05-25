@@ -534,7 +534,7 @@ task.wait(.005)
     sound69.PlaybackSpeed = 1
     timeposcur = sound69.TimePosition 
 sound69:Play()
-    playanim(135044356468970,0.5)
+    playanim(135044356468970,0.3)
 else
     stopanim()
     sound69.PlaybackSpeed = 1
@@ -617,7 +617,7 @@ elseif k == "l" then
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(113953995772094,0.5)
+        playanim(113953995772094,0.3)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
