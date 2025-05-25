@@ -4,7 +4,7 @@ if not isfolder("Dances") then
     end
 local is = game:GetService("InsertService")
 local idleanim = is:LoadLocalAsset("rbxassetid://80974060339218")
-local walkanim = is:LoadLocalAsset("rbxassetid://80948338059832,0.3")
+local walkanim = is:LoadLocalAsset("rbxassetid://80948338059832")
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
@@ -458,10 +458,10 @@ INPUTLOOP = uis.InputBegan:Connect(function(k,chatting)
             stopanim()
 dancing = true
 task.wait(.005)
-		    sound69.SoundId = customasset("Dances/rat.mp3")
+		    sound69.SoundId = "rbxassetid://8278630896"
 		    timeposcur = sound69.TimePosition 
 sound69:Play()
-		    playanim(106353328250763)
+		    playanim(78618685223511)
 		else
 	        stopanim()
 		end
@@ -545,11 +545,11 @@ elseif k == "f" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = customasset("Dances/billy.mp3")
+        sound69.SoundId = "rbxassetid://142665235"
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(18945296583)
+        playanim(86509870627165)
     else
         stopanim()
         
@@ -559,10 +559,10 @@ elseif k == "g" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = customasset("Dances/gangnamm.mp3")
+        sound69.SoundId = "rbxassetid://8411234970"
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(12438774071)
+        playanim(109803302620003,0.4)
     else
         stopanim()
         
@@ -585,10 +585,10 @@ elseif k == "j" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = customasset("Dances/dancingin.mp3")
+        sound69.SoundId = "rbxassetid://18477891371"
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(96444866125796)
+        playanim(130725432915474)
     else
         stopanim()
         
