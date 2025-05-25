@@ -588,7 +588,7 @@ task.wait(.005)
         sound69.SoundId = "rbxassetid://18477891371"
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(130725432915474,0.3)
+        playanim(130725432915474,0.5)
     else
         stopanim()
         
@@ -599,12 +599,12 @@ elseif k == "k" then
         dancing = true
         task.wait(.005)
         sound69.SoundId = customasset("Dances/dr.wav")
-        char.Humanoid.WalkSpeed = 4*char:GetScale()
+        char.Humanoid.WalkSpeed = 30*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(12637912409,2)
+        playanim(102302720518230,2)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 8*char:GetScale()
         stopanim()
         
     end
@@ -617,7 +617,7 @@ elseif k == "l" then
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(87593869628310,0.3)
+        playanim(87593869628310,0.2)
     else
         char.Humanoid.WalkSpeed = 8*char:GetScale()
         stopanim()
@@ -866,7 +866,7 @@ stopanim()
 sound69.PlaybackSpeed = 1
 
 end
-                                elseif k == "k" then 
+                                elseif k == then 
     if dancing == false then 
         stopanim()
         dancing = true
