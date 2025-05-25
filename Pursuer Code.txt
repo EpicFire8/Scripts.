@@ -546,7 +546,7 @@ elseif k == "f" then
 dancing = true
 task.wait(.005)
         sound69.SoundId = "rbxassetid://142665235"
-        char.Humanoid.WalkSpeed = 27.5*char:GetScale()
+        char.Humanoid.WalkSpeed = 27*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(86509870627165)
