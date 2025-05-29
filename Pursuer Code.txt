@@ -657,7 +657,7 @@ elseif k == "h" then
         sound69.SoundId = "rbxassetid://1846368080"
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(76647570617571,0.75)
+        playanim(99015977795000)
     else
         stopanim()
         
