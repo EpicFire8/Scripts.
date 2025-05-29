@@ -474,7 +474,7 @@ sound69.SoundId = customasset("Dances/boogie.mp3")
 sound69.PlaybackSpeed = 2
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(16769959846)
+playanim(89881427916954)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
