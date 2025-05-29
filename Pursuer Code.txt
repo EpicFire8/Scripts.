@@ -519,7 +519,7 @@ sound69.SoundId = customasset("Dances/sturdy.mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(100864643591096)
+playanim(99015977795000)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
