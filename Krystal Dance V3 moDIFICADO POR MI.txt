@@ -10,7 +10,7 @@ local sprinting = false
 local is = game:GetService("InsertService")
 local idleanim = is:LoadLocalAsset("rbxassetid://17650990380")
 local walkanim = is:LoadLocalAsset("rbxassetid://130213485744288")
-local sprintanim = is:LoadLocalAsset("rbxassetid://121272703640067")
+local sprintanim = is:LoadLocalAsset("rbxassetid://121272703640067,0.5")
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
@@ -472,7 +472,7 @@ task.wait(.005)
 		    sound69.SoundId = customasset("Dances/TickTockEmote.mp3")
 		    timeposcur = sound69.TimePosition 
 sound69:Play()
-		    playanim(74187447524398)
+		    playanim(74187447524398,1)
 		else
 	        stopanim()
 		end
@@ -482,10 +482,10 @@ stopanim()
 dancing = true
 task.wait(.005)
 sound69.SoundId = customasset("Dances/Shucks.mp3")
-sound69.PlaybackSpeed = 2
+sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(127030072107050)
+playanim(74238051754912)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -512,10 +512,10 @@ elseif k == "t" then
 dancing = true
 task.wait(.005)
 		sound69.SoundId = customasset("Dances/Ironlung.mp3")
-		sound69.PlaybackSpeed = 2
+		sound69.PlaybackSpeed = 1
 		timeposcur = sound69.TimePosition 
 sound69:Play()
-		playanim(96365246546235)
+		playanim(96365246546235,0.5)
 	else
 		stopanim()
 		sound69.PlaybackSpeed = 1
@@ -530,7 +530,7 @@ sound69.SoundId = customasset("Dances/chronoshift.mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(136302258505787)
+playanim(136302258505787,1)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -573,7 +573,7 @@ task.wait(.005)
         sound69.SoundId = customasset("Dances/Static.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(124415802608501)
+        playanim(124415802608501,0.5)
     else
         stopanim()
         
@@ -609,7 +609,7 @@ elseif k == "k" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/Lagtrain.wav")
+        sound69.SoundId = customasset("Dances/Lagtrain.mp3")
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
@@ -639,7 +639,7 @@ elseif k == "z" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/LiarDance.ogg")
+        sound69.SoundId = customasset("Dances/LiarDance.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(129584064125006)
