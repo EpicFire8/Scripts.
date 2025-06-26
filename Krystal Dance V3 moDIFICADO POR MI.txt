@@ -530,7 +530,7 @@ sound69.SoundId = customasset("Dances/chronoshift.mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(136302258505787,2.9)
+playanim(136302258505787,3)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -668,7 +668,7 @@ elseif k == "h" then
         sound69.SoundId = customasset("Dances/2Two2.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(89348834081653,2)
+        playanim(89348834081653,3)
     else
         stopanim()
         
@@ -681,7 +681,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/ImGuessImLonely.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(135780829162802,2)
+        playanim(135780829162802,4)
     else
         stopanim()
         
@@ -806,7 +806,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/SillyBilly.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(17445493116)
+        playanim(17445493116,1)
     else
         stopanim()
         
@@ -819,7 +819,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Subturefuge.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(87482480949358)
+        playanim(87482480949358,1)
     else
         stopanim()
         
@@ -873,7 +873,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(111079857314277)
+playanim(111079857314277,0.8)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -887,7 +887,7 @@ end
         sound69.SoundId = customasset("Dances/AronaDance.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(113953995772094)
+        playanim(113953995772094,0.5)
     else
         stopanim()
         
