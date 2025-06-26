@@ -472,7 +472,7 @@ task.wait(.005)
 		    sound69.SoundId = customasset("Dances/TickTockEmote.mp3")
 		    timeposcur = sound69.TimePosition 
 sound69:Play()
-		    playanim(74187447524398,4)
+		    playanim(74187447524398,7)
 		else
 	        stopanim()
 		end
@@ -485,7 +485,7 @@ sound69.SoundId = customasset("Dances/Shucks.mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(74238051754912,2.5)
+playanim(74238051754912,3.5)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -530,7 +530,7 @@ sound69.SoundId = customasset("Dances/chronoshift.mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(136302258505787,3)
+playanim(136302258505787,3.5)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
