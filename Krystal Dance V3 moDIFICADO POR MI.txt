@@ -8,9 +8,9 @@ lol = true
 end
 local sprinting = false 
 local is = game:GetService("InsertService")
-local idleanim = is:LoadLocalAsset("rbxassetid://17650990380")
-local walkanim = is:LoadLocalAsset("rbxassetid://130213485744288")
-local sprintanim = is:LoadLocalAsset("rbxassetid://86509870627165")
+local idleanim = is:LoadLocalAsset("rbxassetid://180435571")
+local walkanim = is:LoadLocalAsset("rbxassetid://180426354")
+local sprintanim = is:LoadLocalAsset("rbxassetid://180426354")
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
@@ -469,10 +469,10 @@ INPUTLOOP = uis.InputBegan:Connect(function(k,chatting)
             stopanim()
 dancing = true
 task.wait(.005)
-		    sound69.SoundId = customasset("Dances/TickTockEmote.mp3")
+		    sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
 		    timeposcur = sound69.TimePosition 
 sound69:Play()
-		    playanim(74187447524398,7)
+		    playanim(123025935086183)
 		else
 	        stopanim()
 		end
@@ -481,11 +481,11 @@ sound69:Play()
 stopanim()
 dancing = true
 task.wait(.005)
-sound69.SoundId = customasset("Dances/Shucks.mp3")
+sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(74238051754912,3.5)
+playanim(130996118600902)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -530,7 +530,7 @@ sound69.SoundId = customasset("Dances/chronoshift.mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(136302258505787,3.5)
+playanim(136302258505787,2)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -642,7 +642,7 @@ elseif k == "z" then
         sound69.SoundId = customasset("Dances/LiarDance.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(129584064125006,2.5)
+        playanim(111778758921235)
     else
         stopanim()
         
@@ -668,7 +668,7 @@ elseif k == "h" then
         sound69.SoundId = customasset("Dances/2Two2.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(89348834081653,3)
+        playanim(89348834081653,2)
     else
         stopanim()
         
@@ -767,7 +767,7 @@ if mode == 2 then
         sound69.SoundId = customasset("Dances/Limbo.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(17308598027,2.5)
+        playanim(17308598027,1.5)
     else
         stopanim()
         
@@ -873,7 +873,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(111079857314277,0.8)
+playanim(111079857314277,0.9)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -887,7 +887,7 @@ end
         sound69.SoundId = customasset("Dances/AronaDance.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(113953995772094,0.5)
+        playanim(113953995772094,0.3)
     else
         stopanim()
         
