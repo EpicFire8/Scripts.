@@ -1096,7 +1096,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Shucks.mp3")
         timeposcur = sound69.TimePosition  
 sound69:Play()
-        playanim(111877248887471,20
+        playanim(111877248887471,20)
     else
         stopanim()
     end
@@ -1156,7 +1156,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Sinful.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132886479585903,8)
+        playanim(132886479585903,7)
     else
         stopanim()
     end
