@@ -1129,10 +1129,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/decadent.mp3")
+        sound69.SoundId = customasset("Dances/DINGALING.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(84587788869282,.35,true,nil,false)
+        playanim(87545753252167,true,nil,false)
     else
         stopanim()
     end
@@ -1141,10 +1141,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/misc.mp3")
+        sound69.SoundId = customasset("Dances/TWIDDLEFINGER.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(100305033962391,2)
+        playanim(18376750786)
     else
         stopanim()
     end
