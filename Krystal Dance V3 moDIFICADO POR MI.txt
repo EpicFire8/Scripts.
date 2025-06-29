@@ -515,7 +515,7 @@ task.wait(.005)
 		sound69.PlaybackSpeed = 1
 		timeposcur = sound69.TimePosition 
 sound69:Play()
-		playanim(77298361270388,1.2)
+		playanim(77298361270388,1)
 	else
 		stopanim()
 		sound69.PlaybackSpeed = 1
@@ -681,7 +681,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/ImGuessImLonely.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(135780829162802,6)
+        playanim(135780829162802,3)
     else
         stopanim()
         
@@ -806,7 +806,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/SillyBilly.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(107464355830477,0.4)
+        playanim(107464355830477,0.5)
     else
         stopanim()
         
@@ -975,7 +975,7 @@ if k == "q" then
         sound69.SoundId = customasset("Dances/Bluudud Alarm.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(97789180606119,7)
+        playanim(97789180606119,1)
     else
         stopanim()
     end
@@ -988,7 +988,7 @@ elseif k == "e" then
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(80641587562132,6)
+        playanim(80641587562132,1)
     else
         stopanim()
     end
@@ -1000,7 +1000,7 @@ elseif k == "r" then
         sound69.SoundId = customasset("Dances/Out of touch.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(135867676375598,1.5)
+        playanim(135867676375598)
     else
         stopanim()
     end
@@ -1012,7 +1012,7 @@ elseif k == "t" then
         sound69.SoundId = customasset("Dances/ItsTVTIME!.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(97351316825183,0.7)
+        playanim(97351316825183,0.8)
     else
         stopanim()
     end
@@ -1036,7 +1036,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/THEMUFFINSONG.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(70924317602904,6)
+        playanim(70924317602904,2)
     else
         stopanim()
     end
@@ -1060,7 +1060,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/TWERKNATION28-NUMBER.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(131539514978219,10)
+        playanim(131539514978219,3)
     else
         stopanim()
     end
@@ -1072,7 +1072,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/ThisisSparta!.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(108658924198497,7)
+        playanim(108658924198497,4)
     else
         stopanim()
     end
@@ -1108,7 +1108,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/IMissTheQuietYesIdooo.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(100986631322204,0.2)
+        playanim(100986631322204,0.1)
     else
         stopanim()
     end
@@ -1120,7 +1120,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/MLGSong.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(77808973933384,3)
+        playanim(77808973933384,2)
     else
         stopanim()
     end
@@ -1132,7 +1132,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Konton.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(83719399570827,6)
+        playanim(83719399570827,3)
     else
         stopanim()
     end
@@ -1144,7 +1144,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/TWIDDLEFINGER.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(18376750786,0.2)
+        playanim(18376750786,0.4)
     else
         stopanim()
     end
@@ -1156,7 +1156,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Sinful.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132886479585903,6.5)
+        playanim(132886479585903,4)
     else
         stopanim()
     end
