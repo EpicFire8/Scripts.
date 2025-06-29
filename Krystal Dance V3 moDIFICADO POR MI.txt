@@ -806,7 +806,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/SillyBilly.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(107464355830477,0.5)
+        playanim(107464355830477,0.4)
     else
         stopanim()
         
@@ -1036,7 +1036,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/THEMUFFINSONG.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(70924317602904,1.4)
+        playanim(70924317602904,1.5)
     else
         stopanim()
     end
@@ -1144,7 +1144,19 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/TickTockEmote.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(74187447524398,6)
+        playanim(74187447524398,7)
+    else
+        stopanim()
+    end
+                    elseif k == "b" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/TickTockEmote.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(89761302048916)
     else
         stopanim()
     end
