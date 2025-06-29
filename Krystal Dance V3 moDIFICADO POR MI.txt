@@ -1060,7 +1060,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/TWERKNATION28-NUMBER.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(131539514978219,5)
+        playanim(131539514978219,7)
     else
         stopanim()
     end
@@ -1072,7 +1072,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/ThisisSparta!.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(108658924198497,9)
+        playanim(108658924198497,15)
     else
         stopanim()
     end
@@ -1096,7 +1096,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Shucks.mp3")
         timeposcur = sound69.TimePosition  
 sound69:Play()
-        playanim(111877248887471,7.90)
+        playanim(111877248887471,20
     else
         stopanim()
     end
@@ -1108,7 +1108,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/IMissTheQuietYesIdooo.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(100986631322204,0.3)
+        playanim(100986631322204,0.2)
     else
         stopanim()
     end
@@ -1132,7 +1132,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Konton.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(83719399570827,3)
+        playanim(83719399570827,5)
     else
         stopanim()
     end
@@ -1156,7 +1156,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Sinful.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132886479585903,6)
+        playanim(132886479585903,8)
     else
         stopanim()
     end
