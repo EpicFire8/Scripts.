@@ -1012,7 +1012,7 @@ elseif k == "t" then
         sound69.SoundId = customasset("Dances/ItsTVTIME!.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(97351316825183,0.7)
+        playanim(97351316825183,7)
     else
         stopanim()
     end
@@ -1024,7 +1024,7 @@ elseif k == "y" then
         sound69.SoundId = customasset("Dances/Pretty Dance.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(127113223546898,0.8)
+        playanim(127113223546898)
     else
         stopanim()
     end
@@ -1036,7 +1036,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/THEMUFFINSONG.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(70924317602904,3)
+        playanim(70924317602904)
     else
         stopanim()
     end
@@ -1072,7 +1072,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/ThisisSparta!.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(108658924198497,9)
+        playanim(108658924198497)
     else
         stopanim()
     end
@@ -1084,7 +1084,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/WEEGEEBOSS.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(13978697606,0.4)
+        playanim(13978697606)
     else
         stopanim()
     end
@@ -1096,7 +1096,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Shucks.mp3")
         timeposcur = sound69.TimePosition  
 sound69:Play()
-        playanim(111877248887471,7)
+        playanim(111877248887471)
     else
         stopanim()
     end
@@ -1108,7 +1108,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/IMissTheQuietYesIdooo.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(100986631322204,0.3)
+        playanim(100986631322204)
     else
         stopanim()
     end
@@ -1120,7 +1120,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/MLGSong.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(77808973933384,3)
+        playanim(77808973933384)
     else
         stopanim()
     end
@@ -1132,7 +1132,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Konton.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(83719399570827,3)
+        playanim(83719399570827)
     else
         stopanim()
     end
@@ -1144,7 +1144,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/TWIDDLEFINGER.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(18376750786,0.3)
+        playanim(18376750786)
     else
         stopanim()
     end
@@ -1156,7 +1156,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Sinful.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132886479585903,6)
+        playanim(132886479585903)
     else
         stopanim()
     end
