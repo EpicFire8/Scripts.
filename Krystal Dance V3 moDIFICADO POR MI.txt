@@ -642,7 +642,7 @@ elseif k == "z" then
         sound69.SoundId = customasset("Dances/LiarDance.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(129584064125006,2)
+        playanim(129584064125006,1.9)
     else
         stopanim()
         
@@ -806,7 +806,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/SillyBilly.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(107464355830477,0.4)
+        playanim(107464355830477,0.5)
     else
         stopanim()
         
@@ -1144,7 +1144,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/TickTockEmote.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(74187447524398,3)
+        playanim(74187447524398,5)
     else
         stopanim()
     end
