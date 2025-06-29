@@ -1036,7 +1036,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/THEMUFFINSONG.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(70924317602904,5)
+        playanim(70924317602904,6)
     else
         stopanim()
     end
@@ -1093,10 +1093,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/Shucks.mp3")
+        sound69.SoundId = customasset("Dances/StarvationV2.mp3")
         timeposcur = sound69.TimePosition  
 sound69:Play()
-        playanim(111877248887471,-6)
+        playanim(112216868378594)
     else
         stopanim()
     end
