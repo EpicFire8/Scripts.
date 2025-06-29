@@ -423,7 +423,7 @@ end
             sound69.PlaybackSpeed = 1
             if playbacktrack == true then 
                            if lol ~= true then 
-            sound69.SoundId = customasset("Dances/myuu.mp3")
+            sound69.SoundId = customasset("Dances/Calm.mp3")
                 else 
                       sound69.SoundId = customasset("Dances/emoboy.mp3")  
                 end
@@ -997,10 +997,10 @@ elseif k == "r" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/Helicopter.mp3")
+        sound69.SoundId = customasset("Dances/Out of touch.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(18226042562,true,nil,false)
+        playanim(135867676375598,true,nil,false)
     else
         stopanim()
     end
@@ -1129,10 +1129,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/DINGALING.mp3")
+        sound69.SoundId = customasset("Dances/Konton.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(87545753252167,true,nil,false)
+        playanim(83719399570827,true,nil,false)
     else
         stopanim()
     end
@@ -1153,10 +1153,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/jung.mp3")
+        sound69.SoundId = customasset("Dances/Sinful.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(71723925114737)
+        playanim(132886479585903)
     else
         stopanim()
     end
