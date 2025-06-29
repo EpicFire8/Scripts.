@@ -581,11 +581,8 @@ sound69:Play()
 elseif k == "p" then 
     if dancing == false then 
         stopanim()
-dancing = true
-task.wait(.005)
-        sound69.SoundId = customasset("Dances/PalmTreePanic.mp3")
-        timeposcur = sound69.TimePosition 
-sound69:Play()
+        dancing = true
+        task.wait(.005)
         playanim(123466997748392)
     else
         stopanim()
