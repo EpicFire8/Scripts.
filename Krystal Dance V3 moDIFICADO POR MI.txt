@@ -1144,7 +1144,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/TickTockEmote.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(74187447524398,5)
+        playanim(74187447524398,6)
     else
         stopanim()
     end
