@@ -1009,7 +1009,7 @@ elseif k == "comma" then
         sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(88293716395349,1)
+        playanim(88293716395349,2)
     else
         stopanim()
     end
