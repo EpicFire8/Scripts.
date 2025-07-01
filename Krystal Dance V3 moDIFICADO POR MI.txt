@@ -997,7 +997,7 @@ elseif k == "b" then
         sound69.SoundId = customasset("Dances/Lemon Demon - Modify.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(101484588555482,0.5)
+        playanim(101484588555482,0.3)
     else
         stopanim()
     end
@@ -1009,7 +1009,7 @@ elseif k == "comma" then
         sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(88293716395349,2)
+        playanim(88293716395349,3)
     else
         stopanim()
     end
@@ -1192,7 +1192,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/NOLI.mp3")
         timeposcur = sound69.TimePosition  
 sound69:Play()
-        playanim(113371242849202,0.5)
+        playanim(113371242849202,0.7)
     else
         stopanim()
     end
@@ -1264,7 +1264,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Shucks.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(74238051754912,2)
+        playanim(74238051754912,4)
     else
         stopanim()
     end
