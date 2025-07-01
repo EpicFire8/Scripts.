@@ -678,12 +678,25 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/ImGuessImLonely.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(135780829162802,3)
+        playanim(135780829162802,2)
     else
         stopanim()
         
     end
 
+elseif k == "b" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/PalmTreePanic.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(131919562012987)
+    else
+        stopanim()
+        
+    end
 elseif k == "c" then 
     if dancing == false then 
         stopanim()
@@ -976,6 +989,42 @@ sound69:Play()
     else
         stopanim()
     end
+elseif k == "b" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/Lemon Demon - Modify.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(101484588555482)
+    else
+        stopanim()
+    end
+elseif k == "comma" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(88293716395349)
+    else
+        stopanim()
+    end
+elseif k == "leftbracket" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/Assumptions.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(79550207601451)
+    else
+        stopanim()
+    end
 elseif k == "v" then 
     if dancing == false then 
         stopanim()
@@ -1135,6 +1184,18 @@ sound69:Play()
     else
         stopanim()
     end
+          elseif k == "l" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/NOLI.mp3")
+        timeposcur = sound69.TimePosition  
+sound69:Play()
+        playanim(113371242849202)
+    else
+        stopanim()
+    end
             elseif k == "z" then 
     if dancing == false then 
         stopanim()
@@ -1192,6 +1253,18 @@ sound69:Play()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(89761302048916)
+    else
+        stopanim()
+    end
+                    elseif k == "comma" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/Shucks.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(74238051754912)
     else
         stopanim()
     end
