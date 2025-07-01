@@ -902,6 +902,32 @@ sound69:Play()
         stopanim()
         
     end
+elseif k == "l" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/C14.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(118452043589079)
+    else
+        stopanim()
+        
+    end
+elseif k == "p" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/Cupcakes HD.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(126397719425664)
+    else
+        stopanim()
+        
+    end
 elseif k == "n" then 
     if dancing == false then 
         stopanim()
@@ -1034,6 +1060,18 @@ elseif k == "u" then
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(70924317602904,1.5)
+    else
+        stopanim()
+    end
+elseif k == "p" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/RUNAWAY.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(119147810948063)
     else
         stopanim()
     end
