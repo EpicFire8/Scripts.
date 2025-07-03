@@ -1290,7 +1290,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/MID SHUCKS SPANISH.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(129311159923059,2)
+        playanim(129311159923059,1)
     else
         stopanim()
     end
