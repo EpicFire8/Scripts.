@@ -1287,10 +1287,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/XO.mp3")
+        sound69.SoundId = customasset("Dances/MID SHUCKS SPANISH.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(85937050685664)
+        playanim(129311159923059)
     else
         stopanim()
     end
