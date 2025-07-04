@@ -1794,10 +1794,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/freeflow.mp3")
+        sound69.SoundId = customasset("Dances/NOLI.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(101564911432113)
+        playanim(84987078674309)
     else
         stopanim()
         
@@ -1807,10 +1807,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/whateverlike.mp3")
+        sound69.SoundId = customasset("Dances/NOLIOutro.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(83266223088944)
+        playanim(134750797885169)
     else
         stopanim()
         
@@ -1820,10 +1820,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/balls.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(15039779727)
+        playanim(98169004962490)
     else
         stopanim()
         
@@ -1833,10 +1833,10 @@ elseif k == "h" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/faster.ogg")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(10609437925)
+        playanim(121135995471744)
     else
         stopanim()
         
@@ -1846,10 +1846,10 @@ elseif k == "g" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/tryna.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(14887006269)
+        playanim(84446932319032)
     else
         stopanim()
         
@@ -1859,10 +1859,10 @@ sound69:Play()
                                         stopanim()
                                         dancing = true
                                         task.wait(.005)
-                                        sound69.SoundId = customasset("Dances/chronoshift.mp3")
+                                        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
                                         timeposcur = sound69.TimePosition 
 sound69:Play()
-                                        playanim(125834337223799)
+                                        playanim(93325509946296)
                                     else
                                         stopanim()
                                         
@@ -1872,12 +1872,12 @@ elseif k == "j" then
 stopanim()
 dancing = true
 task.wait(.005)
-sound69.SoundId = customasset("Dances/dancingwit.mp3")
+sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
 sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(93585895457618)
+playanim(103625946247167)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -1888,10 +1888,10 @@ end
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/frightfunk.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(70835462045983)
+        playanim(133161918594121)
     else
         stopanim()
         
@@ -1901,10 +1901,10 @@ elseif k == "u" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/bloodpop.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132026285699359)
+        playanim(131349023319484)
     else
         stopanim()
         
@@ -1914,7 +1914,7 @@ elseif k == "n" then
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(90819860436349)
+        playanim(134311400337263)
     else
         stopanim()
         
@@ -1924,10 +1924,10 @@ elseif k == "z" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/leftright.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
         sound69:Play()
-        playanim(137845929482571)
+        playanim(83803912096445)
     else
         stopanim()
         
@@ -1937,10 +1937,10 @@ elseif k == "x" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/heavylove.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(85856686932206)
+        playanim(118335464128228)
     else
         stopanim()
         
@@ -1950,10 +1950,10 @@ elseif k == "c" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/million.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(109123683211464)
+        playanim(103054119684229)
     else
         stopanim()
     end
@@ -1962,10 +1962,10 @@ elseif k == "v" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/chaseme.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(118311613925473)
+        playanim(90600572265074)
     else
         stopanim()
     end
@@ -1976,36 +1976,39 @@ if k == "q" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/crisscross.mp3")
+        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(73116243097694)
+        playanim(81283960263200)
     else
         stopanim()
     end
 elseif k == "e" then 
     if dancing == false then 
         stopanim()
-        dancing = true
-        task.wait(.005)
-        sound69.SoundId = customasset("Dances/brain.mp3")
-        char.Humanoid.WalkSpeed = 4*char:GetScale()
+    dancing = true
+    task.wait(.005)
+        sound69.SoundId = customasset("Dances/Eggroll.mp3")
+        char.Humanoid.WalkSpeed = 20*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(86485871533985)
+        playanim(81655662049376)
     else
+        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
     end
 elseif k == "r" then 
     if dancing == false then 
         stopanim()
-        dancing = true
-        task.wait(.005)
-        sound69.SoundId = customasset("Dances/duck.mp3")
+    dancing = true
+    task.wait(.005)
+        sound69.SoundId = customasset("Dances/Eggroll.mp3")
+        char.Humanoid.WalkSpeed = 20*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(13357063395,1,true,nil,false)
+        playanim(127967668233985)
     else
+        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
     end
 elseif k == "t" then 
@@ -2165,20 +2168,6 @@ sound69:Play()
         stopanim()
     end
         end 
-	elseif mode == 7 then 
-	if k == "q" then 
-		if dancing == false then 
-            stopanim()
-dancing = true
-task.wait(.005)
-		    sound69.SoundId = customasset("Dances/rat.mp3")
-		    timeposcur = sound69.TimePosition 
-sound69:Play()
-		    playanim(106353328250763)
-		else
-	        stopanim()
-    end
-        end 
 end
 if k == "equals" then 
     playbacktrack = not playbacktrack
@@ -2231,23 +2220,16 @@ elseif mode ==4 then
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
 	Duration = 5;
-	Text = "You are on page 5 (Classic 1)"
+	Text = "You are on page 5"
 })
 elseif mode ==5 then 
     mode = 6
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
 	Duration = 5;
-	Text = "You are on page 6 (Classic 2)"
+	Text = "You are on page 6"
 })
 elseif mode ==6 then 
-    mode = 7
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Krystal Dance V3";
-	Duration = 5;
-	Text = "You are on page 7 (Classic 3)"
-})
-elseif mode ==7 then 
     mode = 1
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
