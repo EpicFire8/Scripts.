@@ -1970,7 +1970,7 @@ sound69:Play()
         stopanim()
     end
         end 
-    elseif mode == 3 then 
+    elseif mode == 6 then 
 if k == "q" then 
     if dancing == false then 
         stopanim()
@@ -2165,7 +2165,7 @@ sound69:Play()
         stopanim()
     end
         end 
-	elseif mode == 6 then 
+	elseif mode == 7 then 
 	if k == "q" then 
 		if dancing == false then 
             stopanim()
@@ -2224,23 +2224,30 @@ elseif mode ==3 then
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
 	Duration = 5;
-	Text = "You are on page 4 (Classic)"
+	Text = "You are on page 4"
 })
 elseif mode ==4 then 
     mode = 5
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
 	Duration = 5;
-	Text = "You are on page 5 (Classic 2)"
+	Text = "You are on page 5 (Classic 1)"
 })
 elseif mode ==5 then 
     mode = 6
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
 	Duration = 5;
-	Text = "You are on page 6"
+	Text = "You are on page 6 (Classic 2)"
 })
 elseif mode ==6 then 
+    mode = 7
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Krystal Dance V3";
+	Duration = 5;
+	Text = "You are on page 7 (Classic 3)"
+})
+elseif mode ==7 then 
     mode = 1
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
