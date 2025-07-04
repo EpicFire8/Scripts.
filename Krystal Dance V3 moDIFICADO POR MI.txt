@@ -1302,7 +1302,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/おちゃめ機能.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(95648759792903,0.7)
+        playanim(95648759792903,0.8)
     else
         stopanim()
     end
@@ -1329,7 +1329,7 @@ elseif k == "r" then
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(78544606501153,0.5)
+        playanim(78544606501153,0.3)
     else
         stopanim()
     end
@@ -1347,7 +1347,7 @@ elseif k == "r" then
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(126302510476022,0.5)
+        playanim(126302510476022,0.3)
     else
         stopanim()
     end
