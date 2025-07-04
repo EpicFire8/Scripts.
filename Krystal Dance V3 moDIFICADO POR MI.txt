@@ -1396,15 +1396,12 @@ sound69:Play()
     else
         stopanim()
     end
-                    elseif k == "f" then 
-    if dancing == false then 
+                   elseif k == "g" then 
+     if dancing == false then 
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
-        timeposcur = sound69.TimePosition 
-sound69:Play()
-        playanim(101682333769403)
+        playanim(98836175112219)
     else
         stopanim()
     end
