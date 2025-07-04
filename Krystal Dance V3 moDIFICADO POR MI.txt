@@ -1410,7 +1410,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(99222995480853)
+        playanim(99222995480853,0.3)
     else
         stopanim()
     end
@@ -1419,7 +1419,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(77957700969624)
+        playanim(77957700969624,0.3)
     else
         stopanim()
     end
@@ -1428,11 +1428,11 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(88165367941335)
+        playanim(88165367941335,0.3)
     else
         stopanim()
     end
-                  elseif k == "k" then 
+                  elseif k == "c" then 
      if dancing == false then 
         stopanim()
         dancing = true
