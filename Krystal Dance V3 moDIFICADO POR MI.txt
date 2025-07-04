@@ -1294,6 +1294,120 @@ sound69:Play()
     else
         stopanim()
     end
+                    elseif k == "e" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/おちゃめ機能.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(95648759792903)
+    else
+        stopanim()
+    end
+elseif k == "r" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(96550243316072)
+    else
+        stopanim()
+    end
+                    elseif k == "t" then 
+   if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(108124040461994)
+    else
+        stopanim()
+    end
+                    elseif k == "y" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(78544606501153)
+    else
+        stopanim()
+    end
+                    elseif k == "u" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(99927783347758)
+    else
+        stopanim()
+    end
+                    elseif k == "p" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(126302510476022)
+    else
+        stopanim()
+    end
+                    elseif k == "f" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(99630628360564)
+    else
+        stopanim()
+    end
+                    elseif k == "g" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/Shinji's and juns Final battle Song.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(108034281000187)
+    else
+        stopanim()
+    end
+                    elseif k == "h" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(139219469387832)
+    else
+        stopanim()
+    end
+                    elseif k == "f" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(85937050685664)
+    else
+        stopanim()
+    end
+                    elseif k == "f" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/anybodycanfindlove(except you.).mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(101682333769403)
+    else
+        stopanim()
+    end
         end 
 end
 if k == "equals" then 
