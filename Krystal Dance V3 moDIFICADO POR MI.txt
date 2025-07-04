@@ -1401,7 +1401,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(98836175112219)
+        playanim(98836175112219,0.5)
     else
         stopanim()
     end
