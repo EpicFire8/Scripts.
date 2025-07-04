@@ -1405,6 +1405,42 @@ sound69:Play()
     else
         stopanim()
     end
+                  elseif k == "l" then 
+     if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(99222995480853)
+    else
+        stopanim()
+    end
+                  elseif k == "z" then 
+     if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(77957700969624)
+    else
+        stopanim()
+    end
+                  elseif k == "x" then 
+     if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(88165367941335)
+    else
+        stopanim()
+    end
+                  elseif k == "k" then 
+     if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(93547547900261)
+    else
+        stopanim()
+    end
         end 
 end
 if k == "equals" then 
