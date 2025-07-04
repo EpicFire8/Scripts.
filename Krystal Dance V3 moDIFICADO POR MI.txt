@@ -1768,10 +1768,10 @@ elseif mode == 5 then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/XO.mp3")
+        sound69.SoundId = customasset("Dances/SAXAPHONE.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(73559770055600)
+        playanim(76640626326290)
     else
         stopanim()
         
@@ -1781,10 +1781,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/drip.mp3")
+        sound69.SoundId = customasset("Dances/Eggroll.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(100177280567649)
+        playanim(108580088290625)
     else
         stopanim()
         
