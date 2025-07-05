@@ -1449,7 +1449,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/WCIBN.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(16240038168)
+        playanim(16240038168,1)
     else
         stopanim()
     end
@@ -1771,7 +1771,7 @@ elseif mode == 5 then
         sound69.SoundId = customasset("Dances/SAXAPHONE.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(76640626326290)
+        playanim(76640626326290,0.5)
     else
         stopanim()
         
@@ -1810,7 +1810,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/NOLIOutro.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(134750797885169)
+        playanim(134750797885169,1)
     else
         stopanim()
         
@@ -1823,7 +1823,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(98169004962490)
+        playanim(98169004962490,0.5)
     else
         stopanim()
         
@@ -1836,7 +1836,7 @@ elseif k == "h" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(121135995471744)
+        playanim(121135995471744,1)
     else
         stopanim()
         
@@ -1862,7 +1862,7 @@ sound69:Play()
                                         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
                                         timeposcur = sound69.TimePosition 
 sound69:Play()
-                                        playanim(93325509946296)
+                                        playanim(93325509946296,0.5)
                                     else
                                         stopanim()
                                         
@@ -1940,7 +1940,7 @@ elseif k == "x" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(118335464128228)
+        playanim(118335464128228,0.5)
     else
         stopanim()
         
@@ -1953,7 +1953,7 @@ elseif k == "c" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(103054119684229)
+        playanim(103054119684229,1)
     else
         stopanim()
     end
@@ -1965,7 +1965,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(90600572265074)
+        playanim(90600572265074,1)
     else
         stopanim()
     end
@@ -1979,7 +1979,7 @@ if k == "q" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(81283960263200)
+        playanim(81283960263200,0.3)
     else
         stopanim()
     end
