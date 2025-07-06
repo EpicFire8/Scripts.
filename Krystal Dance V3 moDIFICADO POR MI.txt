@@ -2031,7 +2031,7 @@ elseif k == "y" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(15678332784)
+        playanim(15678332784,0.4)
     else
         stopanim()
     end
@@ -2079,7 +2079,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(15678312054)
+        playanim(15678312054,0.3)
     else
         stopanim()
     end
