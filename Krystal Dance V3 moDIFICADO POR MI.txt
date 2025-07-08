@@ -1276,7 +1276,7 @@ elseif k == "leftbracket" then
         sound69.SoundId = customasset("Dances/OHSHITARAT.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(129390844140095,0.5)
+        playanim(129390844140095,0.3)
     else
         stopanim()
     end
@@ -1599,7 +1599,7 @@ task.wait(.005)
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(129958625216192)
+        playanim(129958625216192,2)
     else
         stopanim()
         
@@ -1652,7 +1652,7 @@ elseif k == "k" then
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(99556634315867,2)
+        playanim(99556634315867)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
