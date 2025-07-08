@@ -1268,6 +1268,18 @@ sound69:Play()
     else
         stopanim()
     end
+elseif k == "leftbracket" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/OHSHITARAT.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(129390844140095)
+    else
+        stopanim()
+    end
                         elseif k == "n" then 
     if dancing == false then 
         stopanim()
@@ -1338,7 +1350,7 @@ elseif k == "r" then
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(99927783347758)
+        playanim(133697467276303)
     else
         stopanim()
     end
@@ -1410,7 +1422,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(99222995480853,0.5)
+        playanim(99222995480853,0.3)
     else
         stopanim()
     end
@@ -1449,7 +1461,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/WCIBN.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(16240038168,1)
+        playanim(16240038168,3)
     else
         stopanim()
     end
@@ -1458,7 +1470,25 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(134311400337263)
+        playanim(73153501398103)
+    else
+        stopanim()
+    end
+                  elseif k == "comma" then 
+     if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(84169496800078)
+    else
+        stopanim()
+    end
+                  elseif k == "leftbracket" then 
+     if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(140427132904380)
     else
         stopanim()
     end
@@ -1472,7 +1502,7 @@ sound69:Play()
         stopanim()
     end
         end 
-	elseif mode == 4 then 
+	elseif mode == 5 then 
 	if k == "q" then 
 		if dancing == false then 
             stopanim()
@@ -1762,7 +1792,7 @@ sound69:Play()
         stopanim()
     end
         end 
-elseif mode == 5 then 
+elseif mode == 6 then 
     if k == "q" then 
            if dancing == false then 
         stopanim()
@@ -1970,7 +2000,7 @@ sound69:Play()
         stopanim()
     end
         end 
-    elseif mode == 6 then 
+    elseif mode == 7 then 
 if k == "q" then 
     if dancing == false then 
         stopanim()
@@ -2230,6 +2260,13 @@ elseif mode ==5 then
 	Text = "You are on page 6"
 })
 elseif mode ==6 then 
+    mode = 7
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Krystal Dance V3";
+	Duration = 5;
+	Text = "You are on page 7"
+})
+elseif mode ==7 then 
     mode = 1
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
