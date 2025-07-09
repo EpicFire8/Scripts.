@@ -2180,7 +2180,7 @@ elseif k == "p" then
     dancing = true
     task.wait(.005)
         sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
-        char.Humanoid.WalkSpeed = 20*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(117953507564587)
@@ -2216,18 +2216,6 @@ sound69:Play()
     else
         stopanim()
     end
-          elseif k == "l" then 
-    if dancing == false then 
-        stopanim()
-        dancing = true
-        task.wait(.005)
-        sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
-        timeposcur = sound69.TimePosition  
-sound69:Play()
-        playanim(10726675389)
-    else
-        stopanim()
-    end
             elseif k == "z" then 
     if dancing == false then 
         stopanim()
@@ -2237,7 +2225,7 @@ sound69:Play()
         char.Humanoid.WalkSpeed = 20*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(88288423303273,2)
+        playanim(88288423303273)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
@@ -2260,10 +2248,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/Mesmerizer.mp3")
+        sound69.SoundId = customasset("Dances/decadent.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(17572552567)
+        playanim(84587788869282,.35,true,nil,false)
     else
         stopanim()
     end
@@ -2272,10 +2260,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/Mesmerizer.mp3")
+        sound69.SoundId = customasset("Dances/misc.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(17572554682)
+        playanim(100305033962391,2)
     else
         stopanim()
     end
@@ -2288,31 +2276,6 @@ sound69:Play()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(71723925114737)
-    else
-        stopanim()
-    end
-                        elseif k == "b" then 
-    if dancing == false then 
-        stopanim()
-        dancing = true
-        task.wait(.005)
-        sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
-        timeposcur = sound69.TimePosition 
-sound69:Play()
-        playanim(15520402622)
-    else
-        stopanim()
-    end
-elseif mode == 8 then 
-    if k == "q" then 
-           if dancing == false then 
-        stopanim()
-        dancing = true
-        task.wait(.005)
-        sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
-        timeposcur = sound69.TimePosition 
-sound69:Play()
-        playanim(10229619096)
     else
         stopanim()
     end
@@ -2386,13 +2349,6 @@ elseif mode ==6 then
 	Text = "You are on page 7"
 })
 elseif mode ==7 then 
-    mode = 8
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Krystal Dance V3";
-	Duration = 5;
-	Text = "You are on page 8"
-})
-elseif mode ==8 then 
     mode = 1
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
