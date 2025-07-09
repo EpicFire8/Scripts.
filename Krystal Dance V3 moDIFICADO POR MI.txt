@@ -2303,7 +2303,7 @@ sound69:Play()
     else
         stopanim()
     end
-elseif mode == 7 then 
+elseif mode == 8 then 
     if k == "q" then 
            if dancing == false then 
         stopanim()
@@ -2386,6 +2386,13 @@ elseif mode ==6 then
 	Text = "You are on page 7"
 })
 elseif mode ==7 then 
+    mode = 8
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Krystal Dance V3";
+	Duration = 5;
+	Text = "You are on page 8"
+})
+elseif mode ==8 then 
     mode = 1
     game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
