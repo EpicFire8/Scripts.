@@ -1548,11 +1548,11 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/XD.mp3")
+        sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
         char.Humanoid.WalkSpeed = 0*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(9247094287, 15)
+        playanim(17108973561)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
