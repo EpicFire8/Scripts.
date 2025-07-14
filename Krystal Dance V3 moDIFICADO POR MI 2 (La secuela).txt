@@ -977,7 +977,7 @@ elseif k == "c" then
         sound69.SoundId = customasset("Dances/BrainPower.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(15521377016,2)
+        playanim(15521377016,1.9)
     else
         stopanim()
     end
@@ -1025,7 +1025,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/BigBlack.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(14054036729,1.5)
+        playanim(14054036729,2)
     else
         stopanim()
     end
