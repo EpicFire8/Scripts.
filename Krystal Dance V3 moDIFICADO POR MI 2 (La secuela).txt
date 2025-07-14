@@ -1509,7 +1509,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Mesmerizer.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(79705547848609, 0.2)
+        playanim(79705547848609, 0.4)
     else
         stopanim()
     end
@@ -1522,7 +1522,7 @@ task.wait(.005)
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 sound69:Play()
-	playanim(9503426070,0.2)
+	playanim(9503426070,0.4)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
@@ -1552,7 +1552,7 @@ sound69:Play()
         char.Humanoid.WalkSpeed = 0*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(9247094287,8)
+        playanim(9247094287, 15)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
