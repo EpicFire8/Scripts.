@@ -1025,7 +1025,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/BigBlack.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(14054036729, 1.8)
+        playanim(14054036729, 1.79)
     else
         stopanim()
     end
@@ -1318,7 +1318,7 @@ elseif k == "r" then
         sound69.SoundId = customasset("Dances/Brainbird1.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(122216349954401,1.8)
+        playanim(122216349954401,1.6)
     else
         stopanim()
     end
@@ -1354,7 +1354,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(132149582,0.3)
+        playanim(132149582,0.2)
     else
         stopanim()
     end
@@ -1363,7 +1363,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(52155014,0.3)
+        playanim(52155014,0.2)
     else
         stopanim()
     end
@@ -1417,7 +1417,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(248335946,0.3)
+        playanim(248335946,0.2)
     else
         stopanim()
     end
@@ -1426,7 +1426,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(429730430,0.3)
+        playanim(429730430,0.2)
     else
         stopanim()
     end
@@ -1435,7 +1435,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(27789359,0.1)
+        playanim(27789359,0.2)
     else
         stopanim()
     end
@@ -1483,7 +1483,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(28488254,0.1)
+        playanim(28488254,0.2)
     else
         stopanim()
     end
