@@ -1502,20 +1502,17 @@ sound69:Play()
 	        stopanim()
 		end
 	elseif k == "e" then 
-		if dancing == false then 
-stopanim()
-dancing = true
-task.wait(.005)
-sound69.SoundId = customasset("Dances/Mesmerizer.mp3")
-sound69.PlaybackSpeed = 1
-timeposcur = sound69.TimePosition 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/Mesmerizer.mp3")
+        timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(79705547848609,0.3)
-		else
-stopanim()
-sound69.PlaybackSpeed = 1
-
-end
+        playanim(79705547848609, 0.1)
+    else
+        stopanim()
+    end
 		elseif k == "r" then 
 if dancing == false then 
 	stopanim()
@@ -1525,7 +1522,7 @@ task.wait(.005)
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 sound69:Play()
-	playanim(9503426070,0.3)
+	playanim(9503426070,0.1)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
