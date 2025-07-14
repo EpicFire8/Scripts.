@@ -1318,7 +1318,7 @@ elseif k == "r" then
         sound69.SoundId = customasset("Dances/Brainbird1.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(122216349954401, 2.2)
+        playanim(122216349954401, 2.1)
     else
         stopanim()
     end
