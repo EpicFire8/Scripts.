@@ -1679,7 +1679,7 @@ elseif k == "x" then
         sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(96313533433486,2)
+        playanim(13388916095)
     else
         stopanim()
         
@@ -1714,13 +1714,15 @@ sound69:Play()
 elseif k == "c" then 
     if dancing == false then 
         stopanim()
-        dancing = true
-        task.wait(.005)
-        sound69.SoundId = customasset("Dances/JasonChaseTheme.mp3")
+    dancing = true
+    task.wait(.005)
+        sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
+        char.Humanoid.WalkSpeed = 30*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(83916428522904,2)
+        playanim(129700726680674)
     else
+        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
         
     end
