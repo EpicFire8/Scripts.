@@ -1025,7 +1025,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/BigBlack.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(14054036729,2)
+        playanim(14054036729,1.5)
     else
         stopanim()
     end
@@ -1039,7 +1039,7 @@ if k == "q" then
         sound69.SoundId = customasset("Dances/Trickymenumusic.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(117403335589854,2)
+        playanim(117403335589854,1.5)
     else
         stopanim()
     end
@@ -1100,7 +1100,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/THEMUFFINSONG.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(9332568672,1)
+        playanim(9332568672,1.5)
     else
         stopanim()
     end
@@ -1136,7 +1136,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/HotMilk.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(7995268991,3)
+        playanim(7995268991,0.3)
     else
         stopanim()
     end
@@ -1244,7 +1244,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/Squidward Yell.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(90700867402738,1.5)
+        playanim(90700867402738,2)
     else
         stopanim()
     end
@@ -1318,7 +1318,7 @@ elseif k == "r" then
         sound69.SoundId = customasset("Dances/Brainbird.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(122216349954401,1.5)
+        playanim(122216349954401,2)
     else
         stopanim()
     end
@@ -1354,7 +1354,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(132149582,0.3)
+        playanim(132149582,0.1)
     else
         stopanim()
     end
@@ -1363,7 +1363,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(52155014,0.3)
+        playanim(52155014,0.1)
     else
         stopanim()
     end
@@ -1372,7 +1372,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(27789359,0.3)
+        playanim(27789359,0.1)
     else
         stopanim()
     end
@@ -1390,7 +1390,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(35634514,0.3)
+        playanim(35634514,0.1)
     else
         stopanim()
     end
@@ -1435,7 +1435,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(27789359,0.3)
+        playanim(27789359,0.1)
     else
         stopanim()
     end
@@ -1465,7 +1465,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(17086423985,1)
+        playanim(17086423985,2)
     else
         stopanim()
     end
@@ -1483,7 +1483,7 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(28488254,0.3)
+        playanim(28488254,0.1)
     else
         stopanim()
     end
