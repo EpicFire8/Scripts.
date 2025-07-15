@@ -1136,7 +1136,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/Omni.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(7392775020,0.03)
+        playanim(7392775020,0.02)
     else
         stopanim()
     end
@@ -1792,7 +1792,7 @@ elseif mode == 6 then
         sound69.SoundId = customasset("Dances/Trinity1.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(123935975912435,0.7)
+        playanim(123935975912435,0.8)
     else
         stopanim()
         
@@ -1805,7 +1805,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/TrinityROUND2.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(107169742509591,0.7)
+        playanim(107169742509591,0.9)
     else
         stopanim()
         
@@ -1818,7 +1818,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/SHUCKS Spanish.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(96462670412613,0.9)
+        playanim(96462670412613,1)
     else
         stopanim()
         
@@ -1843,7 +1843,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/MID SHUCKS SPANISH.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(129311159923059,1.1)
+        playanim(129311159923059,1.2)
     else
         stopanim()
     end
