@@ -1136,7 +1136,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/HotMilk.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(7392775020,0.2)
+        playanim(7392775020,0.1)
     else
         stopanim()
     end
@@ -1703,7 +1703,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/bimbam.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(94502767906760,5)
+        playanim(94502767906760,8)
     else
         stopanim()
         
@@ -1789,7 +1789,7 @@ elseif mode == 6 then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/Trinity.mp3")
+        sound69.SoundId = customasset("Dances/Trinity1.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(123935975912435)
@@ -1805,7 +1805,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/TrinityROUND2.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(107169742509591)
+        playanim(107169742509591,1)
     else
         stopanim()
         
@@ -1843,7 +1843,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/MID SHUCKS SPANISH.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(129311159923059,1.5)
+        playanim(129311159923059,1.3)
     else
         stopanim()
     end
