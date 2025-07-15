@@ -1136,7 +1136,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/Omni.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(7392775020,0.03)
+        playanim(7392775020,0.04)
     else
         stopanim()
     end
