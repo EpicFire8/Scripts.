@@ -8,9 +8,9 @@ lol = true
 end
 local sprinting = false 
 local is = game:GetService("InsertService")
-local idleanim = is:LoadLocalAsset("rbxassetid://115446547528554, 0.5")
-local walkanim = is:LoadLocalAsset("rbxassetid://70667266897695,0.1")
-local sprintanim = is:LoadLocalAsset("rbxassetid://136252199622273")
+local idleanim = is:LoadLocalAsset("rbxassetid://113936735438633")
+local walkanim = is:LoadLocalAsset("rbxassetid://109608117252855")
+local sprintanim = is:LoadLocalAsset("rbxassetid://73339268159242")
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
@@ -601,7 +601,7 @@ elseif k == "k" then
 sound69:Play()
         playanim(80764093560475)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -722,7 +722,7 @@ sound69:Play()
 sound69:Play()
         playanim(135728469426517)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -830,7 +830,7 @@ elseif k == "h" then
 sound69:Play()
         playanim(86930422409322,2)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -845,7 +845,7 @@ elseif k == "g" then
 sound69:Play()
         playanim(117953507564587)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -873,7 +873,7 @@ elseif k == "j" then
 sound69:Play()
         playanim(91714887241441,2)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -888,7 +888,7 @@ sound69:Play()
 sound69:Play()
         playanim(131418698864660,0.8)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -952,7 +952,7 @@ if dancing == false then
 sound69:Play()
         playanim(14054543152,0.3)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end    
@@ -1554,7 +1554,7 @@ sound69:Play()
 sound69:Play()
         playanim(17108973561)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
 
 end
@@ -1637,7 +1637,7 @@ elseif k == "k" then
 sound69:Play()
         playanim(99378670528030)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -1665,7 +1665,7 @@ elseif k == "z" then
 sound69:Play()
         playanim(123297701965318)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -1720,7 +1720,7 @@ elseif k == "c" then
 sound69:Play()
         playanim(129700726680674,5)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -1735,7 +1735,7 @@ elseif k == "n" then
 sound69:Play()
         playanim(101106955956257)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -1751,7 +1751,7 @@ sound69:Play()
 sound69:Play()
         playanim(131418698864660,0.5)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -1766,7 +1766,7 @@ elseif k == "leftbracket" then
 sound69:Play()
         playanim(119460860418071,2)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -2063,7 +2063,7 @@ elseif k == "e" then
 sound69:Play()
         playanim(81655662049376)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
     end
 elseif k == "r" then 
@@ -2077,7 +2077,7 @@ elseif k == "r" then
 sound69:Play()
         playanim(127967668233985)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
     end
 elseif k == "t" then 
@@ -2163,7 +2163,7 @@ elseif k == "p" then
 sound69:Play()
         playanim(117953507564587)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -2178,7 +2178,7 @@ elseif k == "j" then
 sound69:Play()
         playanim(86930422409322,2)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -2380,13 +2380,13 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
             playanim(0,1,false,idleanim )
             end
         elseif char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and walking == false then 
-            char.Humanoid.WalkSpeed = 14*char:GetScale()
+            char.Humanoid.WalkSpeed = 10*char:GetScale()
             walking = true
             idle = false
             stopanim()
             fwait(1/500)
     	 if sprinting == false then 
-                 char.Humanoid.WalkSpeed = 14*char:GetScale()
+                 char.Humanoid.WalkSpeed = 10*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
                 playanim(130213485744288,1,false,walkanim)
             end
