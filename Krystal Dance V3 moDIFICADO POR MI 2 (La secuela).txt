@@ -8,9 +8,9 @@ lol = true
 end
 local sprinting = false 
 local is = game:GetService("InsertService")
-local idleanim = is:LoadLocalAsset("rbxassetid://115446547528554")
-local walkanim = is:LoadLocalAsset("rbxassetid://70667266897695")
-local sprintanim = is:LoadLocalAsset("rbxassetid://119558526211035")
+local idleanim = is:LoadLocalAsset("rbxassetid://126664058004501")
+local walkanim = is:LoadLocalAsset("rbxassetid://108662868850566")
+local sprintanim = is:LoadLocalAsset("rbxassetid://74048132095264")
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
