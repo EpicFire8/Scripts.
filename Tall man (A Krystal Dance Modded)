@@ -527,11 +527,12 @@ elseif k == "t" then
 elseif k == "f" then 
     if dancing == false then 
         stopanim()
-dancing = true
-task.wait(.005)
+        dancing = true
+        task.wait(.005)
         char.Humanoid.WalkSpeed = 30*char:GetScale()
         playanim(123003095250129)
     else
+        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
         
     end
