@@ -529,11 +529,8 @@ elseif k == "f" then
         stopanim()
 dancing = true
 task.wait(.005)
-        sound69.SoundId = customasset("Dances/Mesmerizer.mp3")
-        char.Humanoid.WalkSpeed = 4*char:GetScale()
-        timeposcur = sound69.TimePosition 
-sound69:Play()
-        playanim(107578737342278)
+        char.Humanoid.WalkSpeed = 30*char:GetScale()
+        playanim(123003095250129)
     else
         stopanim()
         
