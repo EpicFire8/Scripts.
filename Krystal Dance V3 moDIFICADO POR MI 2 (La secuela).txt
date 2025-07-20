@@ -1868,7 +1868,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/FreakMan.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(128200614025174,2)
+        playanim(128200614025174,1.5)
     else
         stopanim()
         
@@ -1881,7 +1881,7 @@ sound69:Play()
                                         sound69.SoundId = customasset("Dances/Babs Seed.mp3")
                                         timeposcur = sound69.TimePosition 
 sound69:Play()
-                                        playanim(112431235141765,0.5)
+                                        playanim(112431235141765,0.8)
                                     else
                                         stopanim()
                                         
@@ -1896,7 +1896,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(119241882672660.1)
+playanim(119241882672660,1)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -1912,7 +1912,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(78270528768822,0.7)
+playanim(78270528768822,0.9)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -1926,7 +1926,7 @@ end
         sound69.SoundId = customasset("Dances/Prism Shuffle.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132979558739339)
+        playanim(132979558739339,1)
     else
         stopanim()
         
@@ -1939,7 +1939,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/Firework.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(89935837869234,1)
+        playanim(89935837869234,2)
     else
         stopanim()
         
@@ -1962,7 +1962,7 @@ elseif k == "l" then
         sound69.SoundId = customasset("Dances/Land Of The Depressed Expunged King.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(118392324365891)
+        playanim(107621600307084)
     else
         stopanim()
         
@@ -1988,7 +1988,7 @@ elseif k == "x" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(86625905053797)
+        playanim(86625905053797,0.5)
     else
         stopanim()
         
@@ -2013,7 +2013,7 @@ elseif k == "v" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(138545705713954)
+        playanim(138545705713954,0.3)
     else
         stopanim()
     end
@@ -2025,7 +2025,7 @@ elseif k == "b" then
         sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(136132625955975)
+        playanim(136132625955975,0.3)
     else
         stopanim()
     end
@@ -2037,7 +2037,7 @@ elseif k == "comma" then
         sound69.SoundId = customasset("Dances/Not My Problem.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(95752772262092)
+        playanim(93109743665927)
     else
         stopanim()
     end
