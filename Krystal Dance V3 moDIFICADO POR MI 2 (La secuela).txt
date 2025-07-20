@@ -1868,7 +1868,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/FreakMan.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(128200614025174,1.5)
+        playanim(128200614025174,1.8)
     else
         stopanim()
         
@@ -1896,7 +1896,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(119241882672660,1)
+playanim(119241882672660,2)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -1912,7 +1912,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(78270528768822,0.9)
+playanim(78270528768822,1)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -1926,7 +1926,7 @@ end
         sound69.SoundId = customasset("Dances/Prism Shuffle.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132979558739339,1)
+        playanim(132979558739339,2)
     else
         stopanim()
         
@@ -1962,7 +1962,7 @@ elseif k == "l" then
         sound69.SoundId = customasset("Dances/Land Of The Depressed Expunged King.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(107621600307084)
+        playanim(107621600307084,0.7)
     else
         stopanim()
         
