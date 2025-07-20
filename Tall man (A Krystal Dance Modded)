@@ -2380,7 +2380,7 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
                 playanim(130213485744288,1,false,walkanim)
             end
         else
-                char.Humanoid.WalkSpeed = 20*char:GetScale()
+                char.Humanoid.WalkSpeed = 17*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
                 playanim(130213485744288,2.2,false,sprintanim)
             end
