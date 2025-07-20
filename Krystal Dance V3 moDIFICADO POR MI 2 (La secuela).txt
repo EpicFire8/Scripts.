@@ -1855,7 +1855,7 @@ elseif k == "h" then
         sound69.SoundId = customasset("Dances/Tetoris.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(105328071403632)
+        playanim(105328071403632,0.5)
     else
         stopanim()
         
@@ -1868,7 +1868,7 @@ elseif k == "g" then
         sound69.SoundId = customasset("Dances/FreakMan.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(128200614025174)
+        playanim(128200614025174,2)
     else
         stopanim()
         
@@ -1881,7 +1881,7 @@ sound69:Play()
                                         sound69.SoundId = customasset("Dances/Babs Seed.mp3")
                                         timeposcur = sound69.TimePosition 
 sound69:Play()
-                                        playanim(112431235141765)
+                                        playanim(112431235141765,0.5)
                                     else
                                         stopanim()
                                         
@@ -1896,7 +1896,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(119241882672660)
+playanim(119241882672660.1)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -1912,7 +1912,7 @@ sound69.PlaybackSpeed = 1
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
-playanim(78270528768822)
+playanim(78270528768822,0.7)
     else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -1939,7 +1939,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/Firework.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(89935837869234)
+        playanim(89935837869234,1)
     else
         stopanim()
         
