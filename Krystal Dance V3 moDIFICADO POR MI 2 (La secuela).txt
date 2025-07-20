@@ -1972,10 +1972,10 @@ elseif k == "z" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/VOISOUND.mp3")
+        sound69.SoundId = customasset("Dances/California Girls.mp3")
         timeposcur = sound69.TimePosition 
         sound69:Play()
-        playanim(76659796469428)
+        playanim(73559755404776)
     else
         stopanim()
         
