@@ -1988,7 +1988,7 @@ elseif k == "x" then
         sound69.SoundId = customasset("Dances/Locked In.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(76975616044095)
+        playanim(76975616044095,2)
     else
         stopanim()
         
@@ -2001,7 +2001,7 @@ elseif k == "c" then
         sound69.SoundId = customasset("Dances/you are an idiot!.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(124646390933027)
+        playanim(124646390933027,2)
     else
         stopanim()
     end
