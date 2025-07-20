@@ -1544,7 +1544,7 @@ sound69:Play()
 sound69:Play()
         playanim(118075771271666)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
 
 end
@@ -1641,7 +1641,7 @@ elseif k == "l" then
 sound69:Play()
         playanim(123297701965318,2)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
+        char.Humanoid.WalkSpeed = 10*char:GetScale()
         stopanim()
         
     end
@@ -2371,18 +2371,18 @@ char.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(function()
             playanim(0,1,false,idleanim )
             end
         elseif char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and walking == false then 
-            char.Humanoid.WalkSpeed = 14*char:GetScale()
+            char.Humanoid.WalkSpeed = 10*char:GetScale()
             walking = true
             idle = false
             stopanim()
             fwait(1/500)
     	 if sprinting == false then 
-                 char.Humanoid.WalkSpeed = 14*char:GetScale()
+                 char.Humanoid.WalkSpeed = 10*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
                 playanim(130213485744288,1,false,walkanim)
             end
         else
-                char.Humanoid.WalkSpeed = 24*char:GetScale()
+                char.Humanoid.WalkSpeed = 40*char:GetScale()
             if walking == true and idle == false and  char.Humanoid.MoveDirection ~= Vector3.new(0,0,0) and dancing == false and playanother==true  then 
                 playanim(130213485744288,2.2,false,sprintanim)
             end
@@ -2448,7 +2448,7 @@ local updatesPerSecond = 10
 local Character = char 
 local Root = char.HumanoidRootPart
 introsound = Instance.new("Sound",Root)
-introsound.SoundId = "rbxassetid://236146895"
+introsound.SoundId = "rbxassetid://8689159935"
 introsound.Volume = 8
 introsound:Play()
 
