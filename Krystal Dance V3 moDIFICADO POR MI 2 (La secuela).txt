@@ -1985,10 +1985,10 @@ elseif k == "x" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
+        sound69.SoundId = customasset("Dances/Locked In.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(86625905053797,0.5)
+        playanim(76975616044095)
     else
         stopanim()
         
@@ -1998,10 +1998,10 @@ elseif k == "c" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
+        sound69.SoundId = customasset("Dances/you are an idiot!.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(84058246886373)
+        playanim(124646390933027)
     else
         stopanim()
     end
@@ -2010,10 +2010,10 @@ elseif k == "v" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
+        sound69.SoundId = customasset("Dances/Morning dance.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(138545705713954,0.3)
+        playanim(113378850180481)
     else
         stopanim()
     end
