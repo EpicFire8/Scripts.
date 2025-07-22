@@ -2060,11 +2060,11 @@ elseif k == "e" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = customasset("Dances/Eggroll.mp3")
-        char.Humanoid.WalkSpeed = 20*char:GetScale()
+        sound69.SoundId = customasset("Dances/BroIsInAnEdit.mp3")
+        char.Humanoid.WalkSpeed = 0*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(81655662049376)
+        playanim(103908544327177)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
