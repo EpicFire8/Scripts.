@@ -2074,11 +2074,11 @@ elseif k == "r" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = customasset("Dances/Eggroll.mp3")
+        sound69.SoundId = customasset("Dances/pogo.mp3")
         char.Humanoid.WalkSpeed = 20*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(127967668233985)
+        playanim(132652674939641)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
@@ -2088,10 +2088,10 @@ elseif k == "t" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
+        sound69.SoundId = customasset("Dances/Static(Alt).mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(182393478)
+        playanim(113151893771961)
     else
         stopanim()
     end
@@ -2100,10 +2100,10 @@ elseif k == "y" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/RelaxedScene.mp3")
+        sound69.SoundId = customasset("Dances/Atheos.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(15678332784,0.4)
+        playanim(94052975867277)
     else
         stopanim()
     end
@@ -2160,11 +2160,11 @@ elseif k == "p" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = customasset("Dances/VOIDSOUND.mp3")
-        char.Humanoid.WalkSpeed = 20*char:GetScale()
+        sound69.SoundId = customasset("Dances/AnotherBrother.mp3")
+        char.Humanoid.WalkSpeed = 0*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(117953507564587)
+        playanim(88661401373673)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
@@ -2175,11 +2175,11 @@ elseif k == "j" then
         stopanim()
     dancing = true
     task.wait(.005)
-        sound69.SoundId = customasset("Dances/doodle.mp3")
+        sound69.SoundId = customasset("Dances/Triflethumb.mp3")
         char.Humanoid.WalkSpeed = 16*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(86930422409322,2)
+        playanim(133900488437888)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
