@@ -562,7 +562,7 @@ task.wait(.005)
         sound69.SoundId = customasset("Dances/Static2.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(124415802608501,0.4)
+        playanim(124415802608501,0.2)
     else
         stopanim()
         
