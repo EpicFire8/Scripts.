@@ -2089,7 +2089,7 @@ elseif k == "t" then
         sound69.SoundId = customasset("Dances/Static(Alt).mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(113151893771961,0.7)
+        playanim(113151893771961,0.75)
     else
         stopanim()
     end
