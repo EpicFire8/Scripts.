@@ -2089,7 +2089,7 @@ elseif k == "t" then
         sound69.SoundId = customasset("Dances/Static(Alt).mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(113151893771961,1)
+        playanim(113151893771961,0.9)
     else
         stopanim()
     end
@@ -2177,7 +2177,7 @@ elseif k == "j" then
         char.Humanoid.WalkSpeed = 16*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(133900488437888,0.4)
+        playanim(133900488437888,0.45)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
