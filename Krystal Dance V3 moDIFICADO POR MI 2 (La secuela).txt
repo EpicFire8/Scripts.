@@ -2072,15 +2072,13 @@ sound69:Play()
 elseif k == "r" then 
     if dancing == false then 
         stopanim()
-    dancing = true
-    task.wait(.005)
+        dancing = true
+        task.wait(.005)
         sound69.SoundId = customasset("Dances/pogo.mp3")
-        char.Humanoid.WalkSpeed = 20*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
         playanim(132652674939641)
     else
-        char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
     end
 elseif k == "t" then 
@@ -2091,7 +2089,7 @@ elseif k == "t" then
         sound69.SoundId = customasset("Dances/Static(Alt).mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(113151893771961)
+        playanim(113151893771961,0.7)
     else
         stopanim()
     end
@@ -2179,7 +2177,7 @@ elseif k == "j" then
         char.Humanoid.WalkSpeed = 16*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(133900488437888)
+        playanim(133900488437888,0.7)
     else
         char.Humanoid.WalkSpeed = 14*char:GetScale()
         stopanim()
