@@ -2,6 +2,14 @@
 if not isfolder("Dances") then 
     makefolder("Dances")
     end
+    task.wait(1.5)
+    local player = game:GetService("Players").LocalPlayer
+		local character = player.Character
+		if not character then return end
+		-- Play animation
+		local Intro = Animator.new(character, 124033675853489)
+		Intro:Play()
+	end
 local lol = math.random(1,30)
 if lol == 2 then 
 lol = true 
